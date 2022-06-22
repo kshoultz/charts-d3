@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Library Test Harness</title>
+        <script src="../javascript/d3.js"></script>
+        <script src="../javascript/d3charts/d3-charts.js"></script>
+        <script src="../javascript/d3charts/d3-charts-scale.js"></script>
+        <link rel="stylesheet" href="../css/d3-charts-styles.css" />
+    </head>
+    <body>
+        <style>
+            .group-tick line {
+                stroke: #000;
+            }
+        
+            .ribbons {
+                fill-opacity: 0.67;
+            }
+        </style>
+        <div id="chartContainer" width="450" height="450"></div>
+        <script src="../javascript/d3charts/d3-charts-chord.js"></script>
+        <script>
+            d3.charts.ChordChart({
+                target: "chartContainer"
+            });
+        </script>
+    </body>
+</html>

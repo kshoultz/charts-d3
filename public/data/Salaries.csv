@@ -1,0 +1,1777 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="/media/idf/css/yui.css" />
+  <link rel="stylesheet" type="text/css" href="/media/idf/css/style.css" />
+  <link rel="icon" type="image/png" href="/media/idf/img/favicon.png" />
+  <!--[if lt IE 7]>
+  <link rel="stylesheet" type="text/css" href="/media/idf/css/ie6.css" />
+  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="/media/idf/css/prettify.css" />
+  <title>csv/car/Salaries.csv - Datasets distributed with R Git Source Tree - rdataset is a collection of 597 datasets that were originally distributed alongside the statistical software environment &quot;R&quot; and some of its add-on packages.</title>
+  <script type="text/javascript" src="/media/idf/js/jquery-1.7.2.min.js"></script>
+  <meta name="indefero-version" content="1.3.3" />
+<meta name="indefero-revision" content="ebb8d46420ecdd177dcbf4a7c7bd64959ffadbec" />
+
+</head>
+<body>
+<div id="doc3" class="yui-t1">
+  <div id="hd">
+    <h1 class="project-title">Datasets distributed with R
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" /></h1>
+    <a href="#title" accesskey="2"></a>
+<ul id="main-menu">
+<li>
+<a href="/index.php/login/">Sign in or create your account</a></li>
+<li id="project-list"><a href="/index.php/projects/">Project List &#x25be;</a>
+
+<ul>
+<li><a href="/index.php/p/plotlib/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+&quot;Matlab-like&quot; plotting library</a></li>
+
+<li><a href="/index.php/p/NET-COMponent/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+.NET component and COM server</a></li>
+
+<li><a href="/index.php/p/python/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+A Simple Scilab-Python Gateway</a></li>
+
+<li><a href="/index.php/p/VirtualKeyboard/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+A Virtual GUI Keyboard for Scilab</a></li>
+
+<li><a href="/index.php/p/accsum/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+accsum</a></li>
+
+<li><a href="/index.php/p/apef/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Accurate and portable elementary functions</a></li>
+
+<li><a href="/index.php/p/aerospace-blockset/">
+
+<img class="logo" src="/index.php/p/aerospace-blockset/logo/" alt="Project logo" />
+Aerospace Blockset for Xcos</a></li>
+
+<li><a href="/index.php/p/aerospace-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+aerospace-toolbox</a></li>
+
+<li><a href="/index.php/p/allan-variance/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Allan variance</a></li>
+
+<li><a href="/index.php/p/http/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+An HTTP client for Scilab</a></li>
+
+<li><a href="/index.php/p/ann-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+ANN toolbox</a></li>
+
+<li><a href="/index.php/p/anova/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+ANOVA toolbox</a></li>
+
+<li><a href="/index.php/p/apifun/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Apifun</a></li>
+
+<li><a href="/index.php/p/arduino/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+arduino</a></li>
+
+<li><a href="/index.php/p/arpack-ng/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+arpack-ng</a></li>
+
+<li><a href="/index.php/p/assert/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Assert</a></li>
+
+<li><a href="/index.php/p/atoms-tests/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+atoms-tests</a></li>
+
+<li><a href="/index.php/p/atomscc/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+atomscc</a></li>
+
+<li><a href="/index.php/p/act/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Automatic Control Toolbox</a></li>
+
+<li><a href="/index.php/p/arktoolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Autonomous Robotics Kit Toolbox</a></li>
+
+<li><a href="/index.php/p/autorun/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+autorun</a></li>
+
+<li><a href="/index.php/p/BackDoor/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+BackDoor</a></li>
+
+<li><a href="/index.php/p/bench-scilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+bench-scilab</a></li>
+
+<li><a href="/index.php/p/bigint/">
+
+<img class="logo" src="/index.php/p/bigint/logo/" alt="Project logo" />
+Big Integers</a></li>
+
+<li><a href="/index.php/p/binary-patch/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+binary-patch</a></li>
+
+<li><a href="/index.php/p/bufferblock/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Buffer block</a></li>
+
+<li><a href="/index.php/p/cwa/">
+
+<img class="logo" src="/index.php/p/cwa/logo/" alt="Project logo" />
+Cardiovascular Wave Analysis toolbox</a></li>
+
+<li><a href="/index.php/p/casci/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+CASCI - P. Castagliola's Probability &amp; Statistics Functions</a></li>
+
+<li><a href="/index.php/p/celestlab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+CelestLab </a></li>
+
+<li><a href="/index.php/p/cgal/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+cgal</a></li>
+
+<li><a href="/index.php/p/cglab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+CGLAB OLD</a></li>
+
+<li><a href="/index.php/p/check-videocard/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+check-videocard</a></li>
+
+<li><a href="/index.php/p/sCiMake/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+CMake Generation of Scilab</a></li>
+
+<li><a href="/index.php/p/scisie/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Code generator for SIE platform (MIPS+FPGA)</a></li>
+
+<li><a href="/index.php/p/com-application-server/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+COM-Application-Server</a></li>
+
+<li><a href="/index.php/p/compdiv/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+compdiv</a></li>
+
+<li><a href="/index.php/p/scicv/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Computer Vision Module</a></li>
+
+<li><a href="/index.php/p/cvfunctions/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+computer_vision functions for scilab</a></li>
+
+<li><a href="/index.php/p/condnb/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+condnb</a></li>
+
+<li><a href="/index.php/p/conint/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Conint</a></li>
+
+<li><a href="/index.php/p/contour3d/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Contour3D</a></li>
+
+<li><a href="/index.php/p/convertlatin/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+convertlatin</a></li>
+
+<li><a href="/index.php/p/coselica/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+coselica</a></li>
+
+<li><a href="/index.php/p/cpge/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+CPGE</a></li>
+
+<li><a href="/index.php/p/csv-readwrite/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+csv_readwrite</a></li>
+
+<li><a href="/index.php/p/cudalinalg/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+cudalinalg</a></li>
+
+<li><a href="/index.php/p/cuter/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+CUTEr</a></li>
+
+<li><a href="/index.php/p/dace-scilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+DACE for Scilab</a></li>
+
+<li><a href="/index.php/p/dm-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Data Mining toolbox</a></li>
+
+<li><a href="/index.php/p/scidb/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Database Module + FuzzySQL</a></li>
+
+<li><a href="/index.php/p/rdataset/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Datasets distributed with R</a></li>
+
+<li><a href="/index.php/p/dbldbl/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+dbldbl</a></li>
+
+<li><a href="/index.php/p/dde-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+dde_toolbox</a></li>
+
+<li><a href="/index.php/p/diffcode/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+diffcode</a></li>
+
+<li><a href="/index.php/p/digimetrie-tools/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Digimetrie's Boards Tools</a></li>
+
+<li><a href="/index.php/p/dispmat/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Dispmat</a></li>
+
+<li><a href="/index.php/p/distfun/">
+
+<img class="logo" src="/index.php/p/distfun/logo/" alt="Project logo" />
+Distribution Functions</a></li>
+
+<li><a href="/index.php/p/dnims/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+dNIMS</a></li>
+
+<li><a href="/index.php/p/docmathroadmap/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : A Proposal for a Mathematical Roadmap</a></li>
+
+<li><a href="/index.php/p/docscifloat/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Floating Point Numbers in Scilab</a></li>
+
+<li><a href="/index.php/p/docintrodiscrprobas/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Introduction to Discrete Probabilities</a></li>
+
+<li><a href="/index.php/p/docintroscioptim/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Introduction to Optimization with Scilab</a></li>
+
+<li><a href="/index.php/p/docintrotoscilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Introduction To Scilab</a></li>
+
+<li><a href="/index.php/p/docscisparse/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Introduction to Sparse Matrices in Scilab</a></li>
+
+<li><a href="/index.php/p/docnumder/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Numerical Derivatives in Scilab</a></li>
+
+<li><a href="/index.php/p/docoptimscilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Optimization In Scilab</a></li>
+
+<li><a href="/index.php/p/docprogscilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Programming in Scilab</a></li>
+
+<li><a href="/index.php/p/docscilabisnotnaive/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Scilab is Not Naive</a></li>
+
+<li><a href="/index.php/p/docneldermead/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : The Nelder Mead Component </a></li>
+
+<li><a href="/index.php/p/docuncoptimcond/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Unconstrained Optimality Conditions with Scilab</a></li>
+
+<li><a href="/index.php/p/docsciextensions/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Documentation : Writing Scilab Extensions</a></li>
+
+<li><a href="/index.php/p/doetbx/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+doetbx</a></li>
+
+<li><a href="/index.php/p/ebayes/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+eBayes: Scilab Package for Evolutionary Filtering</a></li>
+
+<li><a href="/index.php/p/epfs/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Embedding Python From Scilab</a></li>
+
+<li><a href="/index.php/p/file/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+File</a></li>
+
+<li><a href="/index.php/p/financial/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Financial</a></li>
+
+<li><a href="/index.php/p/flexdock/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+flexdock</a></li>
+
+<li><a href="/index.php/p/floatingpoint/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Floating Point</a></li>
+
+<li><a href="/index.php/p/fmincont/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+fmincon</a></li>
+
+<li><a href="/index.php/p/fsolver/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+fsolver</a></li>
+
+<li><a href="/index.php/p/sciflt/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Fuzzy Logic Toolbox</a></li>
+
+<li><a href="/index.php/p/galois-fields/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Galois Fields</a></li>
+
+<li><a href="/index.php/p/geneauto-p/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Geneauto / P toolset</a></li>
+
+<li><a href="/index.php/p/giws/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+GIWS - A wrapper generator to generate C++ mapping Java classes</a></li>
+
+<li><a href="/index.php/p/gsimd/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+gsimd</a></li>
+
+<li><a href="/index.php/p/guimaker/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+guimaker</a></li>
+
+<li><a href="/index.php/p/heat-flow-inspector/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Heat Flow Inspector</a></li>
+
+<li><a href="/index.php/p/helptbx/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+helptbx</a></li>
+
+<li><a href="/index.php/p/scihttp/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+HTTP Toolbox</a></li>
+
+<li><a href="/index.php/p/hyb-auto-module/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Hybrid automata module for Scilab/Xcos</a></li>
+
+<li><a href="/index.php/p/hat/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Hyperspectral Analysis Toolbox</a></li>
+
+<li><a href="/index.php/p/hypt/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+hypt - Hypothesis Testing</a></li>
+
+<li><a href="/index.php/p/ipcv/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Image Processing and Computer Vision Toolbox</a></li>
+
+<li><a href="/index.php/p/IPD/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Image Processing Design</a></li>
+
+<li><a href="/index.php/p/impsam/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+impsam</a></li>
+
+<li><a href="/index.php/p/indinf/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Indirect Influences</a></li>
+
+<li><a href="/index.php/p/intprbs/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Integration Problems</a></li>
+
+<li><a href="/index.php/p/ipoptlib/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+ipoptlib</a></li>
+
+<li><a href="/index.php/p/imsls/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Iterative Methods for Sparse Linear Systems</a></li>
+
+<li><a href="/index.php/p/javahelp-ng/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+javahelp-ng</a></li>
+
+<li><a href="/index.php/p/jbh/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+jbh</a></li>
+
+<li><a href="/index.php/p/JIMS/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+JIMS — Java Interaction Mechanism in Scilab</a></li>
+
+<li><a href="/index.php/p/jts/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+JTS — Java Tools for Scilab</a></li>
+
+<li><a href="/index.php/p/lat/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Lattice Algebra Toolbox</a></li>
+
+<li><a href="/index.php/p/lcc-windows/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+LCC-windows</a></li>
+
+<li><a href="/index.php/p/libsvm/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+libsvm and liblinear</a></li>
+
+<li><a href="/index.php/p/linalg/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+linalg</a></li>
+
+<li><a href="/index.php/p/mpc-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Linear and Nonlinear Model Predictive Control</a></li>
+
+<li><a href="/index.php/p/LRP/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Linear Repetitive Process Toolkit</a></li>
+
+<li><a href="/index.php/p/linux-prerequisites-sources/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+linux-prerequisites-sources</a></li>
+
+<li><a href="/index.php/p/lolimot/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+LOLIMOT</a></li>
+
+<li><a href="/index.php/p/lowdisc/">
+
+<img class="logo" src="/index.php/p/lowdisc/logo/" alt="Project logo" />
+Low Discrepancy Sequences</a></li>
+
+<li><a href="/index.php/p/machine-learning-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Machine Learning Toolbox</a></li>
+
+<li><a href="/index.php/p/makematrix/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Make Matrix</a></li>
+
+<li><a href="/index.php/p/maple2scilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+maple2scilab</a></li>
+
+<li><a href="/index.php/p/mathieu/">
+
+<img class="logo" src="/index.php/p/mathieu/logo/" alt="Project logo" />
+Mathieu functions toolbox for Scilab</a></li>
+
+<li><a href="/index.php/p/moc-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Matlab/Octave Compatibility toolbox</a></li>
+
+<li><a href="/index.php/p/matmark/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Matrix Market</a></li>
+
+<li><a href="/index.php/p/med/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+MED</a></li>
+
+<li><a href="/index.php/p/memetic-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Memetic algorithms toolbox</a></li>
+
+<li><a href="/index.php/p/metanet/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Metanet</a></li>
+
+<li><a href="/index.php/p/boost-metanet/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Metanet and Boost.Graph</a></li>
+
+<li><a href="/index.php/p/MinGW-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+MinGW Compiler Toolbox</a></li>
+
+<li><a href="/index.php/p/minphase/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Minimum phase function design and its application</a></li>
+
+<li><a href="/index.php/p/mkltools/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+mkltools</a></li>
+
+<li><a href="/index.php/p/mmodd/">
+
+<img class="logo" src="/index.php/p/mmodd/logo/" alt="Project logo" />
+MmodD</a></li>
+
+<li><a href="/index.php/p/modbus/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+modbus</a></li>
+
+<li><a href="/index.php/p/mpscilab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+mpscilab</a></li>
+
+<li><a href="/index.php/p/scimqtt/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+MQTT Client Module for Scilab</a></li>
+
+<li><a href="/index.php/p/msvc/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+msvc</a></li>
+
+<li><a href="/index.php/p/nan-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+NaN_Toolbox</a></li>
+
+<li><a href="/index.php/p/netcdf4/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+NetCDF-4</a></li>
+
+<li><a href="/index.php/p/nidaq/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+NIDAQ</a></li>
+
+<li><a href="/index.php/p/nisp/">
+
+<img class="logo" src="/index.php/p/nisp/logo/" alt="Project logo" />
+NISP</a></li>
+
+<li><a href="/index.php/p/nisp-cours/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+NISP-Cours</a></li>
+
+<li><a href="/index.php/p/nistdataset/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+NIST Dataset</a></li>
+
+<li><a href="/index.php/p/number/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Number</a></li>
+
+<li><a href="/index.php/p/old-doc/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+old_doc</a></li>
+
+<li><a href="/index.php/p/old-tests/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+old_tests</a></li>
+
+<li><a href="/index.php/p/ole/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+ole</a></li>
+
+<li><a href="/index.php/p/OMD/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+OMD</a></li>
+
+<li><a href="/index.php/p/omd2/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+OMD2/CSDL</a></li>
+
+<li><a href="/index.php/p/opc-client/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+opc_client</a></li>
+
+<li><a href="/index.php/p/optkelley/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+optkelley</a></li>
+
+<li><a href="/index.php/p/ortpol/">
+
+<img class="logo" src="/index.php/p/ortpol/logo/" alt="Project logo" />
+Orthogonal Polynomials</a></li>
+
+<li><a href="/index.php/p/osu-svm/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+OsuSVM</a></li>
+
+<li><a href="/index.php/p/overload/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Overload</a></li>
+
+<li><a href="/index.php/p/pso-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Particle Swarm Optimization Toolbox </a></li>
+
+<li><a href="/index.php/p/pims/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+PIMS</a></li>
+
+<li><a href="/index.php/p/plugin-papyrus/">
+
+<img class="logo" src="/index.php/p/plugin-papyrus/logo/" alt="Project logo" />
+plugin_papyrus</a></li>
+
+<li><a href="/index.php/p/pt-ccodegen/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+PThread C Code Generator</a></li>
+
+<li><a href="/index.php/p/pvm/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+PVM</a></li>
+
+<li><a href="/index.php/p/quapro/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+quapro</a></li>
+
+<li><a href="/index.php/p/randnum/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Randnum</a></li>
+
+<li><a href="/index.php/p/isitchaos/">
+
+<img class="logo" src="/index.php/p/isitchaos/logo/" alt="Project logo" />
+Reconnaissance du chaos</a></li>
+
+<li><a href="/index.php/p/regtools/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Regression tools</a></li>
+
+<li><a href="/index.php/p/restclient/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+RESTClient</a></li>
+
+<li><a href="/index.php/p/richelieu/">
+
+<img class="logo" src="/index.php/p/richelieu/logo/" alt="Project logo" />
+Richelieu</a></li>
+
+<li><a href="/index.php/p/scetoexe/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scetoexe</a></li>
+
+<li><a href="/index.php/p/sci-ipopt/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+sci-ipopt</a></li>
+
+<li><a href="/index.php/p/sciann/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+sciann</a></li>
+
+<li><a href="/index.php/p/scibench/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scibench</a></li>
+
+<li><a href="/index.php/p/scicheckupdate/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scicheckupdate</a></li>
+
+<li><a href="/index.php/p/scicobyla/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scicobyla</a></li>
+
+<li><a href="/index.php/p/scicrypt/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SciCrypt</a></li>
+
+<li><a href="/index.php/p/scidakota/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SciDakota</a></li>
+
+<li><a href="/index.php/p/scidemo/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scidemo</a></li>
+
+<li><a href="/index.php/p/scidoc/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scidoc</a></li>
+
+<li><a href="/index.php/p/scidoe/">
+
+<img class="logo" src="/index.php/p/scidoe/logo/" alt="Project logo" />
+Scidoe</a></li>
+
+<li><a href="/index.php/p/sip/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab + SIP</a></li>
+
+<li><a href="/index.php/p/scilab2c/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab 2 C</a></li>
+
+<li><a href="/index.php/p/json/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab JSON</a></li>
+
+<li><a href="/index.php/p/scinetwork/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab Network</a></li>
+
+<li><a href="/index.php/p/scilab-android/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab on Android</a></li>
+
+<li><a href="/index.php/p/splp/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab Persian Localization Project</a></li>
+
+<li><a href="/index.php/p/module-lycee/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab pour les lycées</a></li>
+
+<li><a href="/index.php/p/scicurl/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab Remote File Access</a></li>
+
+<li><a href="/index.php/p/rf-toolkit/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab RF Toolkit - A New Toolbox For Versatile RF Applications</a></li>
+
+<li><a href="/index.php/p/swt/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab Wavelet Toolbox</a></li>
+
+<li><a href="/index.php/p/sciwbs/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab Web-services Toolbox</a></li>
+
+<li><a href="/index.php/p/scilab-emacs/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scilab-emacs</a></li>
+
+<li><a href="/index.php/p/scilab-eclipse/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab/Eclipse plugin</a></li>
+
+<li><a href="/index.php/p/scilab-xll/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Scilab_XLL</a></li>
+
+<li><a href="/index.php/p/scilin/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scilin</a></li>
+
+<li><a href="/index.php/p/scimax/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SciMax</a></li>
+
+<li><a href="/index.php/p/odbc/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SciODBC</a></li>
+
+<li><a href="/index.php/p/scipde/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+scipde</a></li>
+
+<li><a href="/index.php/p/scirenderer/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SciRenderer</a></li>
+
+<li><a href="/index.php/p/sciscipy/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Sciscipy: A Scilab API for Python</a></li>
+
+<li><a href="/index.php/p/serial-port/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+serial_port</a></li>
+
+<li><a href="/index.php/p/dspblock/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Signal Processing Block for Xcos</a></li>
+
+<li><a href="/index.php/p/simm/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SIMM</a></li>
+
+<li><a href="/index.php/p/simulink2xcos/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Simulink2Xcos</a></li>
+
+<li><a href="/index.php/p/sisotool/">
+
+<img class="logo" src="/index.php/p/sisotool/logo/" alt="Project logo" />
+sisotool for Scilab</a></li>
+
+<li><a href="/index.php/p/smp/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SMP</a></li>
+
+<li><a href="/index.php/p/sndfile-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+sndfile_toolbox</a></li>
+
+<li><a href="/index.php/p/sopi/">
+
+<img class="logo" src="/index.php/p/sopi/logo/" alt="Project logo" />
+sopi</a></li>
+
+<li><a href="/index.php/p/spilu/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Sparse Incomplete LU Preconditionners</a></li>
+
+<li><a href="/index.php/p/splspc/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Sparse Least Squares Preconditioned methods</a></li>
+
+<li><a href="/index.php/p/specfun/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Specfun</a></li>
+
+<li><a href="/index.php/p/toolbox-spgl1/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+SPGL1 Toolbox</a></li>
+
+<li><a href="/index.php/p/statvis/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Statistical visualization</a></li>
+
+<li><a href="/index.php/p/statpack/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Statpack</a></li>
+
+<li><a href="/index.php/p/stixbox/">
+
+<img class="logo" src="/index.php/p/stixbox/logo/" alt="Project logo" />
+Stixbox</a></li>
+
+<li><a href="/index.php/p/sudoku/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+sudoku</a></li>
+
+<li><a href="/index.php/p/sundials/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Sundials Update</a></li>
+
+<li><a href="/index.php/p/symcomp/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Symbolic Computing</a></li>
+
+<li><a href="/index.php/p/sysmetab/">
+
+<img class="logo" src="/index.php/p/sysmetab/logo/" alt="Project logo" />
+Sysmetab, 13C metabolic flux analysis with Scilab</a></li>
+
+<li><a href="/index.php/p/tango-gateway/">
+
+<img class="logo" src="/index.php/p/tango-gateway/logo/" alt="Project logo" />
+tango-gateway</a></li>
+
+<li><a href="/index.php/p/simontest/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+testingagain</a></li>
+
+<li><a href="/index.php/p/forge-tests/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Tests Forge</a></li>
+
+<li><a href="/index.php/p/texmacs/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+texmacs</a></li>
+
+<li><a href="/index.php/p/stftb/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Time Frequency Toolbox</a></li>
+
+<li><a href="/index.php/p/tropics/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Tropical Toolbox</a></li>
+
+<li><a href="/index.php/p/type2fls/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Type 2 Fuzzy Logic Toolbox</a></li>
+
+<li><a href="/index.php/p/udp-blocks/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+udp-blocks</a></li>
+
+<li><a href="/index.php/p/uncprb/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+uncprb</a></li>
+
+<li><a href="/index.php/p/usb-toolbox/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+USB Communication Toolbox</a></li>
+
+<li><a href="/index.php/p/uvsq-gmres/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+uvsq_gmres</a></li>
+
+<li><a href="/index.php/p/module-gpib/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+visa</a></li>
+
+<li><a href="/index.php/p/waveequation/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Wave Equation</a></li>
+
+<li><a href="/index.php/p/writexmlexcel/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+writeXmlExel</a></li>
+
+<li><a href="/index.php/p/fmu-wrapper/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Xcos FMU wrapper</a></li>
+
+<li><a href="/index.php/p/xcos-code-generator/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+Xcos re-useable and customizable code generator</a></li>
+
+<li><a href="/index.php/p/xcos-mbdyn/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+XcosMBdyn</a></li>
+
+<li><a href="/index.php/p/xls-link/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+xls-link</a></li>
+
+<li><a href="/index.php/p/xmllab/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+XMLlab</a></li>
+
+<li><a href="/index.php/p/xmltodocbook/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+xmltodocbook</a></li>
+
+<li><a href="/index.php/p/zlib/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+zlib</a></li>
+
+<li><a href="/index.php/p/scibayes/">
+
+<img class="logo" src="/media/idf/img/no_logo.png" alt="Project logo" />
+ψBayes: Scilab Package for Bayesian Estimation and Learning</a></li>
+</ul>
+</li><li>
+<a href="/index.php/help/" title="Help and accessibility features">Help</a></li>
+</ul>
+
+
+<script type="text/javascript" charset="utf-8">
+
+$(document).ready(function() {
+  $('#project-list').bind('mouseenter', function(ev) {
+    $(this).find('ul').show();
+  }).bind('mouseleave', function(ev) {
+    $(this).find('ul').hide();
+  });
+});
+
+</script>
+
+
+
+<div id="header">
+<div id="main-tabs">
+
+  <a accesskey="1" href="/index.php/p/rdataset/">Project Home</a>
+  <a href="/index.php/p/rdataset/downloads/">Downloads</a>
+  <a href="/index.php/p/rdataset/doc/">Documentation</a>
+ <a href="/index.php/p/rdataset/issues/">Issues</a>
+ <a href="/index.php/p/rdataset/source/tree/master/" class="active">Source</a>
+ <a href="/index.php/p/rdataset/review/">Code Review</a>
+
+</div>
+
+
+<div id="sub-tabs">
+<a class="active" href="/index.php/p/rdataset/source/tree/master/">Source Tree</a> |
+<a href="/index.php/p/rdataset/source/changes/master/">Change Log</a>
+ |
+<a href="/index.php/p/rdataset/source/help/">How To Get The Code</a>
+</div>
+
+</div>
+
+      <h1 class="title" id="title">Datasets distributed with R Git Source Tree</h1>
+
+  </div>
+  <div id="bd">
+    <div id="yui-main">
+      <div class="yui-b">
+    <div class="yui-g">
+          
+      <div class="content">
+<h2 class="top"><a href="/index.php/p/rdataset/source/tree/master/">Root</a><span class="sep">/</span><span class="breadcrumb"><a href="/index.php/p/rdataset/source/tree/master/csv">csv</a><span class="sep">/</span><a href="/index.php/p/rdataset/source/tree/master/csv/car">car</a><span class="sep">/</span><a href="/index.php/p/rdataset/source/tree/master/csv/car/Salaries.csv">Salaries.csv</a></span></h2>
+
+<table class="code" summary=" ">
+
+<tbody>
+<tr class="c-line"><td class="code-lc" id="L1"><a href="#L1">1</a></td><td class="code mono">&quot;&quot;,&quot;rank&quot;,&quot;discipline&quot;,&quot;yrs.since.phd&quot;,&quot;yrs.service&quot;,&quot;sex&quot;,&quot;salary&quot;<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L2"><a href="#L2">2</a></td><td class="code mono">&quot;1&quot;,&quot;Prof&quot;,&quot;B&quot;,19,18,&quot;Male&quot;,139750<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L3"><a href="#L3">3</a></td><td class="code mono">&quot;2&quot;,&quot;Prof&quot;,&quot;B&quot;,20,16,&quot;Male&quot;,173200<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L4"><a href="#L4">4</a></td><td class="code mono">&quot;3&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,3,&quot;Male&quot;,79750<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L5"><a href="#L5">5</a></td><td class="code mono">&quot;4&quot;,&quot;Prof&quot;,&quot;B&quot;,45,39,&quot;Male&quot;,115000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L6"><a href="#L6">6</a></td><td class="code mono">&quot;5&quot;,&quot;Prof&quot;,&quot;B&quot;,40,41,&quot;Male&quot;,141500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L7"><a href="#L7">7</a></td><td class="code mono">&quot;6&quot;,&quot;AssocProf&quot;,&quot;B&quot;,6,6,&quot;Male&quot;,97000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L8"><a href="#L8">8</a></td><td class="code mono">&quot;7&quot;,&quot;Prof&quot;,&quot;B&quot;,30,23,&quot;Male&quot;,175000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L9"><a href="#L9">9</a></td><td class="code mono">&quot;8&quot;,&quot;Prof&quot;,&quot;B&quot;,45,45,&quot;Male&quot;,147765<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L10"><a href="#L10">10</a></td><td class="code mono">&quot;9&quot;,&quot;Prof&quot;,&quot;B&quot;,21,20,&quot;Male&quot;,119250<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L11"><a href="#L11">11</a></td><td class="code mono">&quot;10&quot;,&quot;Prof&quot;,&quot;B&quot;,18,18,&quot;Female&quot;,129000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L12"><a href="#L12">12</a></td><td class="code mono">&quot;11&quot;,&quot;AssocProf&quot;,&quot;B&quot;,12,8,&quot;Male&quot;,119800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L13"><a href="#L13">13</a></td><td class="code mono">&quot;12&quot;,&quot;AsstProf&quot;,&quot;B&quot;,7,2,&quot;Male&quot;,79800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L14"><a href="#L14">14</a></td><td class="code mono">&quot;13&quot;,&quot;AsstProf&quot;,&quot;B&quot;,1,1,&quot;Male&quot;,77700<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L15"><a href="#L15">15</a></td><td class="code mono">&quot;14&quot;,&quot;AsstProf&quot;,&quot;B&quot;,2,0,&quot;Male&quot;,78000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L16"><a href="#L16">16</a></td><td class="code mono">&quot;15&quot;,&quot;Prof&quot;,&quot;B&quot;,20,18,&quot;Male&quot;,104800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L17"><a href="#L17">17</a></td><td class="code mono">&quot;16&quot;,&quot;Prof&quot;,&quot;B&quot;,12,3,&quot;Male&quot;,117150<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L18"><a href="#L18">18</a></td><td class="code mono">&quot;17&quot;,&quot;Prof&quot;,&quot;B&quot;,19,20,&quot;Male&quot;,101000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L19"><a href="#L19">19</a></td><td class="code mono">&quot;18&quot;,&quot;Prof&quot;,&quot;A&quot;,38,34,&quot;Male&quot;,103450<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L20"><a href="#L20">20</a></td><td class="code mono">&quot;19&quot;,&quot;Prof&quot;,&quot;A&quot;,37,23,&quot;Male&quot;,124750<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L21"><a href="#L21">21</a></td><td class="code mono">&quot;20&quot;,&quot;Prof&quot;,&quot;A&quot;,39,36,&quot;Female&quot;,137000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L22"><a href="#L22">22</a></td><td class="code mono">&quot;21&quot;,&quot;Prof&quot;,&quot;A&quot;,31,26,&quot;Male&quot;,89565<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L23"><a href="#L23">23</a></td><td class="code mono">&quot;22&quot;,&quot;Prof&quot;,&quot;A&quot;,36,31,&quot;Male&quot;,102580<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L24"><a href="#L24">24</a></td><td class="code mono">&quot;23&quot;,&quot;Prof&quot;,&quot;A&quot;,34,30,&quot;Male&quot;,93904<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L25"><a href="#L25">25</a></td><td class="code mono">&quot;24&quot;,&quot;Prof&quot;,&quot;A&quot;,24,19,&quot;Male&quot;,113068<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L26"><a href="#L26">26</a></td><td class="code mono">&quot;25&quot;,&quot;AssocProf&quot;,&quot;A&quot;,13,8,&quot;Female&quot;,74830<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L27"><a href="#L27">27</a></td><td class="code mono">&quot;26&quot;,&quot;Prof&quot;,&quot;A&quot;,21,8,&quot;Male&quot;,106294<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L28"><a href="#L28">28</a></td><td class="code mono">&quot;27&quot;,&quot;Prof&quot;,&quot;A&quot;,35,23,&quot;Male&quot;,134885<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L29"><a href="#L29">29</a></td><td class="code mono">&quot;28&quot;,&quot;AsstProf&quot;,&quot;B&quot;,5,3,&quot;Male&quot;,82379<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L30"><a href="#L30">30</a></td><td class="code mono">&quot;29&quot;,&quot;AsstProf&quot;,&quot;B&quot;,11,0,&quot;Male&quot;,77000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L31"><a href="#L31">31</a></td><td class="code mono">&quot;30&quot;,&quot;Prof&quot;,&quot;B&quot;,12,8,&quot;Male&quot;,118223<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L32"><a href="#L32">32</a></td><td class="code mono">&quot;31&quot;,&quot;Prof&quot;,&quot;B&quot;,20,4,&quot;Male&quot;,132261<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L33"><a href="#L33">33</a></td><td class="code mono">&quot;32&quot;,&quot;AsstProf&quot;,&quot;B&quot;,7,2,&quot;Male&quot;,79916<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L34"><a href="#L34">34</a></td><td class="code mono">&quot;33&quot;,&quot;Prof&quot;,&quot;B&quot;,13,9,&quot;Male&quot;,117256<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L35"><a href="#L35">35</a></td><td class="code mono">&quot;34&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,2,&quot;Male&quot;,80225<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L36"><a href="#L36">36</a></td><td class="code mono">&quot;35&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,2,&quot;Female&quot;,80225<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L37"><a href="#L37">37</a></td><td class="code mono">&quot;36&quot;,&quot;AsstProf&quot;,&quot;B&quot;,5,0,&quot;Female&quot;,77000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L38"><a href="#L38">38</a></td><td class="code mono">&quot;37&quot;,&quot;Prof&quot;,&quot;B&quot;,22,21,&quot;Male&quot;,155750<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L39"><a href="#L39">39</a></td><td class="code mono">&quot;38&quot;,&quot;AsstProf&quot;,&quot;B&quot;,7,4,&quot;Male&quot;,86373<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L40"><a href="#L40">40</a></td><td class="code mono">&quot;39&quot;,&quot;Prof&quot;,&quot;B&quot;,41,31,&quot;Male&quot;,125196<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L41"><a href="#L41">41</a></td><td class="code mono">&quot;40&quot;,&quot;AssocProf&quot;,&quot;B&quot;,9,9,&quot;Male&quot;,100938<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L42"><a href="#L42">42</a></td><td class="code mono">&quot;41&quot;,&quot;Prof&quot;,&quot;B&quot;,23,2,&quot;Male&quot;,146500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L43"><a href="#L43">43</a></td><td class="code mono">&quot;42&quot;,&quot;AssocProf&quot;,&quot;B&quot;,23,23,&quot;Male&quot;,93418<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L44"><a href="#L44">44</a></td><td class="code mono">&quot;43&quot;,&quot;Prof&quot;,&quot;B&quot;,40,27,&quot;Male&quot;,101299<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L45"><a href="#L45">45</a></td><td class="code mono">&quot;44&quot;,&quot;Prof&quot;,&quot;B&quot;,38,38,&quot;Male&quot;,231545<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L46"><a href="#L46">46</a></td><td class="code mono">&quot;45&quot;,&quot;Prof&quot;,&quot;B&quot;,19,19,&quot;Male&quot;,94384<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L47"><a href="#L47">47</a></td><td class="code mono">&quot;46&quot;,&quot;Prof&quot;,&quot;B&quot;,25,15,&quot;Male&quot;,114778<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L48"><a href="#L48">48</a></td><td class="code mono">&quot;47&quot;,&quot;Prof&quot;,&quot;B&quot;,40,28,&quot;Male&quot;,98193<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L49"><a href="#L49">49</a></td><td class="code mono">&quot;48&quot;,&quot;Prof&quot;,&quot;B&quot;,23,19,&quot;Female&quot;,151768<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L50"><a href="#L50">50</a></td><td class="code mono">&quot;49&quot;,&quot;Prof&quot;,&quot;B&quot;,25,25,&quot;Female&quot;,140096<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L51"><a href="#L51">51</a></td><td class="code mono">&quot;50&quot;,&quot;AsstProf&quot;,&quot;B&quot;,1,1,&quot;Male&quot;,70768<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L52"><a href="#L52">52</a></td><td class="code mono">&quot;51&quot;,&quot;Prof&quot;,&quot;B&quot;,28,28,&quot;Male&quot;,126621<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L53"><a href="#L53">53</a></td><td class="code mono">&quot;52&quot;,&quot;Prof&quot;,&quot;B&quot;,12,11,&quot;Male&quot;,108875<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L54"><a href="#L54">54</a></td><td class="code mono">&quot;53&quot;,&quot;AsstProf&quot;,&quot;B&quot;,11,3,&quot;Female&quot;,74692<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L55"><a href="#L55">55</a></td><td class="code mono">&quot;54&quot;,&quot;Prof&quot;,&quot;B&quot;,16,9,&quot;Male&quot;,106639<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L56"><a href="#L56">56</a></td><td class="code mono">&quot;55&quot;,&quot;AssocProf&quot;,&quot;B&quot;,12,11,&quot;Male&quot;,103760<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L57"><a href="#L57">57</a></td><td class="code mono">&quot;56&quot;,&quot;AssocProf&quot;,&quot;B&quot;,14,5,&quot;Male&quot;,83900<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L58"><a href="#L58">58</a></td><td class="code mono">&quot;57&quot;,&quot;Prof&quot;,&quot;B&quot;,23,21,&quot;Male&quot;,117704<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L59"><a href="#L59">59</a></td><td class="code mono">&quot;58&quot;,&quot;AssocProf&quot;,&quot;B&quot;,9,8,&quot;Male&quot;,90215<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L60"><a href="#L60">60</a></td><td class="code mono">&quot;59&quot;,&quot;AssocProf&quot;,&quot;B&quot;,10,9,&quot;Male&quot;,100135<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L61"><a href="#L61">61</a></td><td class="code mono">&quot;60&quot;,&quot;AsstProf&quot;,&quot;B&quot;,8,3,&quot;Male&quot;,75044<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L62"><a href="#L62">62</a></td><td class="code mono">&quot;61&quot;,&quot;AssocProf&quot;,&quot;B&quot;,9,8,&quot;Male&quot;,90304<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L63"><a href="#L63">63</a></td><td class="code mono">&quot;62&quot;,&quot;AsstProf&quot;,&quot;B&quot;,3,2,&quot;Male&quot;,75243<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L64"><a href="#L64">64</a></td><td class="code mono">&quot;63&quot;,&quot;Prof&quot;,&quot;B&quot;,33,31,&quot;Male&quot;,109785<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L65"><a href="#L65">65</a></td><td class="code mono">&quot;64&quot;,&quot;AssocProf&quot;,&quot;B&quot;,11,11,&quot;Female&quot;,103613<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L66"><a href="#L66">66</a></td><td class="code mono">&quot;65&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,3,&quot;Male&quot;,68404<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L67"><a href="#L67">67</a></td><td class="code mono">&quot;66&quot;,&quot;AssocProf&quot;,&quot;B&quot;,9,8,&quot;Male&quot;,100522<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L68"><a href="#L68">68</a></td><td class="code mono">&quot;67&quot;,&quot;Prof&quot;,&quot;B&quot;,22,12,&quot;Male&quot;,101000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L69"><a href="#L69">69</a></td><td class="code mono">&quot;68&quot;,&quot;Prof&quot;,&quot;B&quot;,35,31,&quot;Male&quot;,99418<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L70"><a href="#L70">70</a></td><td class="code mono">&quot;69&quot;,&quot;Prof&quot;,&quot;B&quot;,17,17,&quot;Female&quot;,111512<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L71"><a href="#L71">71</a></td><td class="code mono">&quot;70&quot;,&quot;Prof&quot;,&quot;B&quot;,28,36,&quot;Male&quot;,91412<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L72"><a href="#L72">72</a></td><td class="code mono">&quot;71&quot;,&quot;Prof&quot;,&quot;B&quot;,17,2,&quot;Male&quot;,126320<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L73"><a href="#L73">73</a></td><td class="code mono">&quot;72&quot;,&quot;Prof&quot;,&quot;B&quot;,45,45,&quot;Male&quot;,146856<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L74"><a href="#L74">74</a></td><td class="code mono">&quot;73&quot;,&quot;Prof&quot;,&quot;B&quot;,29,19,&quot;Male&quot;,100131<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L75"><a href="#L75">75</a></td><td class="code mono">&quot;74&quot;,&quot;Prof&quot;,&quot;B&quot;,35,34,&quot;Male&quot;,92391<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L76"><a href="#L76">76</a></td><td class="code mono">&quot;75&quot;,&quot;Prof&quot;,&quot;B&quot;,28,23,&quot;Male&quot;,113398<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L77"><a href="#L77">77</a></td><td class="code mono">&quot;76&quot;,&quot;AsstProf&quot;,&quot;B&quot;,8,3,&quot;Male&quot;,73266<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L78"><a href="#L78">78</a></td><td class="code mono">&quot;77&quot;,&quot;Prof&quot;,&quot;B&quot;,17,3,&quot;Male&quot;,150480<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L79"><a href="#L79">79</a></td><td class="code mono">&quot;78&quot;,&quot;Prof&quot;,&quot;B&quot;,26,19,&quot;Male&quot;,193000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L80"><a href="#L80">80</a></td><td class="code mono">&quot;79&quot;,&quot;AsstProf&quot;,&quot;B&quot;,3,1,&quot;Male&quot;,86100<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L81"><a href="#L81">81</a></td><td class="code mono">&quot;80&quot;,&quot;AsstProf&quot;,&quot;B&quot;,6,2,&quot;Male&quot;,84240<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L82"><a href="#L82">82</a></td><td class="code mono">&quot;81&quot;,&quot;Prof&quot;,&quot;B&quot;,43,28,&quot;Male&quot;,150743<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L83"><a href="#L83">83</a></td><td class="code mono">&quot;82&quot;,&quot;Prof&quot;,&quot;B&quot;,17,16,&quot;Male&quot;,135585<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L84"><a href="#L84">84</a></td><td class="code mono">&quot;83&quot;,&quot;Prof&quot;,&quot;B&quot;,22,20,&quot;Male&quot;,144640<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L85"><a href="#L85">85</a></td><td class="code mono">&quot;84&quot;,&quot;AsstProf&quot;,&quot;B&quot;,6,2,&quot;Male&quot;,88825<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L86"><a href="#L86">86</a></td><td class="code mono">&quot;85&quot;,&quot;Prof&quot;,&quot;B&quot;,17,18,&quot;Female&quot;,122960<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L87"><a href="#L87">87</a></td><td class="code mono">&quot;86&quot;,&quot;Prof&quot;,&quot;B&quot;,15,14,&quot;Male&quot;,132825<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L88"><a href="#L88">88</a></td><td class="code mono">&quot;87&quot;,&quot;Prof&quot;,&quot;B&quot;,37,37,&quot;Male&quot;,152708<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L89"><a href="#L89">89</a></td><td class="code mono">&quot;88&quot;,&quot;AsstProf&quot;,&quot;B&quot;,2,2,&quot;Male&quot;,88400<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L90"><a href="#L90">90</a></td><td class="code mono">&quot;89&quot;,&quot;Prof&quot;,&quot;B&quot;,25,25,&quot;Male&quot;,172272<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L91"><a href="#L91">91</a></td><td class="code mono">&quot;90&quot;,&quot;AssocProf&quot;,&quot;B&quot;,9,7,&quot;Male&quot;,107008<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L92"><a href="#L92">92</a></td><td class="code mono">&quot;91&quot;,&quot;AsstProf&quot;,&quot;B&quot;,10,5,&quot;Female&quot;,97032<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L93"><a href="#L93">93</a></td><td class="code mono">&quot;92&quot;,&quot;AssocProf&quot;,&quot;B&quot;,10,7,&quot;Male&quot;,105128<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L94"><a href="#L94">94</a></td><td class="code mono">&quot;93&quot;,&quot;AssocProf&quot;,&quot;B&quot;,10,7,&quot;Male&quot;,105631<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L95"><a href="#L95">95</a></td><td class="code mono">&quot;94&quot;,&quot;Prof&quot;,&quot;B&quot;,38,38,&quot;Male&quot;,166024<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L96"><a href="#L96">96</a></td><td class="code mono">&quot;95&quot;,&quot;Prof&quot;,&quot;B&quot;,21,20,&quot;Male&quot;,123683<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L97"><a href="#L97">97</a></td><td class="code mono">&quot;96&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,0,&quot;Male&quot;,84000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L98"><a href="#L98">98</a></td><td class="code mono">&quot;97&quot;,&quot;AssocProf&quot;,&quot;B&quot;,17,12,&quot;Male&quot;,95611<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L99"><a href="#L99">99</a></td><td class="code mono">&quot;98&quot;,&quot;Prof&quot;,&quot;B&quot;,13,7,&quot;Male&quot;,129676<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L100"><a href="#L100">100</a></td><td class="code mono">&quot;99&quot;,&quot;Prof&quot;,&quot;B&quot;,30,14,&quot;Male&quot;,102235<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L101"><a href="#L101">101</a></td><td class="code mono">&quot;100&quot;,&quot;Prof&quot;,&quot;B&quot;,41,26,&quot;Male&quot;,106689<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L102"><a href="#L102">102</a></td><td class="code mono">&quot;101&quot;,&quot;Prof&quot;,&quot;B&quot;,42,25,&quot;Male&quot;,133217<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L103"><a href="#L103">103</a></td><td class="code mono">&quot;102&quot;,&quot;Prof&quot;,&quot;B&quot;,28,23,&quot;Male&quot;,126933<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L104"><a href="#L104">104</a></td><td class="code mono">&quot;103&quot;,&quot;Prof&quot;,&quot;B&quot;,16,5,&quot;Male&quot;,153303<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L105"><a href="#L105">105</a></td><td class="code mono">&quot;104&quot;,&quot;Prof&quot;,&quot;B&quot;,20,14,&quot;Female&quot;,127512<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L106"><a href="#L106">106</a></td><td class="code mono">&quot;105&quot;,&quot;AssocProf&quot;,&quot;A&quot;,18,10,&quot;Male&quot;,83850<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L107"><a href="#L107">107</a></td><td class="code mono">&quot;106&quot;,&quot;Prof&quot;,&quot;A&quot;,31,28,&quot;Male&quot;,113543<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L108"><a href="#L108">108</a></td><td class="code mono">&quot;107&quot;,&quot;AssocProf&quot;,&quot;A&quot;,11,8,&quot;Male&quot;,82099<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L109"><a href="#L109">109</a></td><td class="code mono">&quot;108&quot;,&quot;AssocProf&quot;,&quot;A&quot;,10,8,&quot;Male&quot;,82600<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L110"><a href="#L110">110</a></td><td class="code mono">&quot;109&quot;,&quot;AssocProf&quot;,&quot;A&quot;,15,8,&quot;Male&quot;,81500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L111"><a href="#L111">111</a></td><td class="code mono">&quot;110&quot;,&quot;Prof&quot;,&quot;A&quot;,40,31,&quot;Male&quot;,131205<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L112"><a href="#L112">112</a></td><td class="code mono">&quot;111&quot;,&quot;Prof&quot;,&quot;A&quot;,20,16,&quot;Male&quot;,112429<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L113"><a href="#L113">113</a></td><td class="code mono">&quot;112&quot;,&quot;AssocProf&quot;,&quot;A&quot;,19,16,&quot;Male&quot;,82100<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L114"><a href="#L114">114</a></td><td class="code mono">&quot;113&quot;,&quot;AsstProf&quot;,&quot;A&quot;,3,1,&quot;Male&quot;,72500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L115"><a href="#L115">115</a></td><td class="code mono">&quot;114&quot;,&quot;Prof&quot;,&quot;A&quot;,37,37,&quot;Male&quot;,104279<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L116"><a href="#L116">116</a></td><td class="code mono">&quot;115&quot;,&quot;Prof&quot;,&quot;A&quot;,12,0,&quot;Female&quot;,105000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L117"><a href="#L117">117</a></td><td class="code mono">&quot;116&quot;,&quot;Prof&quot;,&quot;A&quot;,21,9,&quot;Male&quot;,120806<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L118"><a href="#L118">118</a></td><td class="code mono">&quot;117&quot;,&quot;Prof&quot;,&quot;A&quot;,30,29,&quot;Male&quot;,148500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L119"><a href="#L119">119</a></td><td class="code mono">&quot;118&quot;,&quot;Prof&quot;,&quot;A&quot;,39,36,&quot;Male&quot;,117515<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L120"><a href="#L120">120</a></td><td class="code mono">&quot;119&quot;,&quot;AsstProf&quot;,&quot;A&quot;,4,1,&quot;Male&quot;,72500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L121"><a href="#L121">121</a></td><td class="code mono">&quot;120&quot;,&quot;AsstProf&quot;,&quot;A&quot;,5,3,&quot;Female&quot;,73500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L122"><a href="#L122">122</a></td><td class="code mono">&quot;121&quot;,&quot;Prof&quot;,&quot;A&quot;,14,14,&quot;Male&quot;,115313<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L123"><a href="#L123">123</a></td><td class="code mono">&quot;122&quot;,&quot;Prof&quot;,&quot;A&quot;,32,32,&quot;Male&quot;,124309<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L124"><a href="#L124">124</a></td><td class="code mono">&quot;123&quot;,&quot;Prof&quot;,&quot;A&quot;,24,22,&quot;Male&quot;,97262<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L125"><a href="#L125">125</a></td><td class="code mono">&quot;124&quot;,&quot;AssocProf&quot;,&quot;A&quot;,25,22,&quot;Female&quot;,62884<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L126"><a href="#L126">126</a></td><td class="code mono">&quot;125&quot;,&quot;Prof&quot;,&quot;A&quot;,24,22,&quot;Male&quot;,96614<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L127"><a href="#L127">127</a></td><td class="code mono">&quot;126&quot;,&quot;Prof&quot;,&quot;A&quot;,54,49,&quot;Male&quot;,78162<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L128"><a href="#L128">128</a></td><td class="code mono">&quot;127&quot;,&quot;Prof&quot;,&quot;A&quot;,28,26,&quot;Male&quot;,155500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L129"><a href="#L129">129</a></td><td class="code mono">&quot;128&quot;,&quot;AsstProf&quot;,&quot;A&quot;,2,0,&quot;Female&quot;,72500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L130"><a href="#L130">130</a></td><td class="code mono">&quot;129&quot;,&quot;Prof&quot;,&quot;A&quot;,32,30,&quot;Male&quot;,113278<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L131"><a href="#L131">131</a></td><td class="code mono">&quot;130&quot;,&quot;AsstProf&quot;,&quot;A&quot;,4,2,&quot;Male&quot;,73000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L132"><a href="#L132">132</a></td><td class="code mono">&quot;131&quot;,&quot;AssocProf&quot;,&quot;A&quot;,11,9,&quot;Male&quot;,83001<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L133"><a href="#L133">133</a></td><td class="code mono">&quot;132&quot;,&quot;Prof&quot;,&quot;A&quot;,56,57,&quot;Male&quot;,76840<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L134"><a href="#L134">134</a></td><td class="code mono">&quot;133&quot;,&quot;AssocProf&quot;,&quot;A&quot;,10,8,&quot;Female&quot;,77500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L135"><a href="#L135">135</a></td><td class="code mono">&quot;134&quot;,&quot;AsstProf&quot;,&quot;A&quot;,3,1,&quot;Female&quot;,72500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L136"><a href="#L136">136</a></td><td class="code mono">&quot;135&quot;,&quot;Prof&quot;,&quot;A&quot;,35,25,&quot;Male&quot;,168635<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L137"><a href="#L137">137</a></td><td class="code mono">&quot;136&quot;,&quot;Prof&quot;,&quot;A&quot;,20,18,&quot;Male&quot;,136000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L138"><a href="#L138">138</a></td><td class="code mono">&quot;137&quot;,&quot;Prof&quot;,&quot;A&quot;,16,14,&quot;Male&quot;,108262<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L139"><a href="#L139">139</a></td><td class="code mono">&quot;138&quot;,&quot;Prof&quot;,&quot;A&quot;,17,14,&quot;Male&quot;,105668<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L140"><a href="#L140">140</a></td><td class="code mono">&quot;139&quot;,&quot;AssocProf&quot;,&quot;A&quot;,10,7,&quot;Male&quot;,73877<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L141"><a href="#L141">141</a></td><td class="code mono">&quot;140&quot;,&quot;Prof&quot;,&quot;A&quot;,21,18,&quot;Male&quot;,152664<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L142"><a href="#L142">142</a></td><td class="code mono">&quot;141&quot;,&quot;AssocProf&quot;,&quot;A&quot;,14,8,&quot;Male&quot;,100102<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L143"><a href="#L143">143</a></td><td class="code mono">&quot;142&quot;,&quot;AssocProf&quot;,&quot;A&quot;,15,10,&quot;Male&quot;,81500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L144"><a href="#L144">144</a></td><td class="code mono">&quot;143&quot;,&quot;Prof&quot;,&quot;A&quot;,19,11,&quot;Male&quot;,106608<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L145"><a href="#L145">145</a></td><td class="code mono">&quot;144&quot;,&quot;AsstProf&quot;,&quot;B&quot;,3,3,&quot;Male&quot;,89942<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L146"><a href="#L146">146</a></td><td class="code mono">&quot;145&quot;,&quot;Prof&quot;,&quot;B&quot;,27,27,&quot;Male&quot;,112696<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L147"><a href="#L147">147</a></td><td class="code mono">&quot;146&quot;,&quot;Prof&quot;,&quot;B&quot;,28,28,&quot;Male&quot;,119015<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L148"><a href="#L148">148</a></td><td class="code mono">&quot;147&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,4,&quot;Male&quot;,92000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L149"><a href="#L149">149</a></td><td class="code mono">&quot;148&quot;,&quot;Prof&quot;,&quot;B&quot;,27,27,&quot;Male&quot;,156938<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L150"><a href="#L150">150</a></td><td class="code mono">&quot;149&quot;,&quot;Prof&quot;,&quot;B&quot;,36,26,&quot;Female&quot;,144651<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L151"><a href="#L151">151</a></td><td class="code mono">&quot;150&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,3,&quot;Male&quot;,95079<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L152"><a href="#L152">152</a></td><td class="code mono">&quot;151&quot;,&quot;Prof&quot;,&quot;B&quot;,14,12,&quot;Male&quot;,128148<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L153"><a href="#L153">153</a></td><td class="code mono">&quot;152&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,4,&quot;Male&quot;,92000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L154"><a href="#L154">154</a></td><td class="code mono">&quot;153&quot;,&quot;Prof&quot;,&quot;B&quot;,21,9,&quot;Male&quot;,111168<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L155"><a href="#L155">155</a></td><td class="code mono">&quot;154&quot;,&quot;AssocProf&quot;,&quot;B&quot;,12,10,&quot;Female&quot;,103994<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L156"><a href="#L156">156</a></td><td class="code mono">&quot;155&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,0,&quot;Male&quot;,92000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L157"><a href="#L157">157</a></td><td class="code mono">&quot;156&quot;,&quot;Prof&quot;,&quot;B&quot;,21,21,&quot;Male&quot;,118971<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L158"><a href="#L158">158</a></td><td class="code mono">&quot;157&quot;,&quot;AssocProf&quot;,&quot;B&quot;,12,18,&quot;Male&quot;,113341<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L159"><a href="#L159">159</a></td><td class="code mono">&quot;158&quot;,&quot;AsstProf&quot;,&quot;B&quot;,1,0,&quot;Male&quot;,88000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L160"><a href="#L160">160</a></td><td class="code mono">&quot;159&quot;,&quot;AssocProf&quot;,&quot;B&quot;,6,6,&quot;Male&quot;,95408<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L161"><a href="#L161">161</a></td><td class="code mono">&quot;160&quot;,&quot;Prof&quot;,&quot;B&quot;,15,16,&quot;Male&quot;,137167<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L162"><a href="#L162">162</a></td><td class="code mono">&quot;161&quot;,&quot;AsstProf&quot;,&quot;B&quot;,2,2,&quot;Male&quot;,89516<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L163"><a href="#L163">163</a></td><td class="code mono">&quot;162&quot;,&quot;Prof&quot;,&quot;B&quot;,26,19,&quot;Male&quot;,176500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L164"><a href="#L164">164</a></td><td class="code mono">&quot;163&quot;,&quot;AssocProf&quot;,&quot;B&quot;,22,7,&quot;Male&quot;,98510<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L165"><a href="#L165">165</a></td><td class="code mono">&quot;164&quot;,&quot;AsstProf&quot;,&quot;B&quot;,3,3,&quot;Male&quot;,89942<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L166"><a href="#L166">166</a></td><td class="code mono">&quot;165&quot;,&quot;AsstProf&quot;,&quot;B&quot;,1,0,&quot;Male&quot;,88795<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L167"><a href="#L167">167</a></td><td class="code mono">&quot;166&quot;,&quot;Prof&quot;,&quot;B&quot;,21,8,&quot;Male&quot;,105890<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L168"><a href="#L168">168</a></td><td class="code mono">&quot;167&quot;,&quot;Prof&quot;,&quot;B&quot;,16,16,&quot;Male&quot;,167284<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L169"><a href="#L169">169</a></td><td class="code mono">&quot;168&quot;,&quot;Prof&quot;,&quot;B&quot;,18,19,&quot;Male&quot;,130664<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L170"><a href="#L170">170</a></td><td class="code mono">&quot;169&quot;,&quot;AssocProf&quot;,&quot;B&quot;,8,6,&quot;Male&quot;,101210<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L171"><a href="#L171">171</a></td><td class="code mono">&quot;170&quot;,&quot;Prof&quot;,&quot;B&quot;,25,18,&quot;Male&quot;,181257<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L172"><a href="#L172">172</a></td><td class="code mono">&quot;171&quot;,&quot;AsstProf&quot;,&quot;B&quot;,5,5,&quot;Male&quot;,91227<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L173"><a href="#L173">173</a></td><td class="code mono">&quot;172&quot;,&quot;Prof&quot;,&quot;B&quot;,19,19,&quot;Male&quot;,151575<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L174"><a href="#L174">174</a></td><td class="code mono">&quot;173&quot;,&quot;Prof&quot;,&quot;B&quot;,37,24,&quot;Male&quot;,93164<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L175"><a href="#L175">175</a></td><td class="code mono">&quot;174&quot;,&quot;Prof&quot;,&quot;B&quot;,20,20,&quot;Male&quot;,134185<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L176"><a href="#L176">176</a></td><td class="code mono">&quot;175&quot;,&quot;AssocProf&quot;,&quot;B&quot;,17,6,&quot;Male&quot;,105000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L177"><a href="#L177">177</a></td><td class="code mono">&quot;176&quot;,&quot;Prof&quot;,&quot;B&quot;,28,25,&quot;Male&quot;,111751<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L178"><a href="#L178">178</a></td><td class="code mono">&quot;177&quot;,&quot;AssocProf&quot;,&quot;B&quot;,10,7,&quot;Male&quot;,95436<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L179"><a href="#L179">179</a></td><td class="code mono">&quot;178&quot;,&quot;AssocProf&quot;,&quot;B&quot;,13,9,&quot;Male&quot;,100944<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L180"><a href="#L180">180</a></td><td class="code mono">&quot;179&quot;,&quot;Prof&quot;,&quot;B&quot;,27,14,&quot;Male&quot;,147349<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L181"><a href="#L181">181</a></td><td class="code mono">&quot;180&quot;,&quot;AsstProf&quot;,&quot;B&quot;,3,3,&quot;Female&quot;,92000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L182"><a href="#L182">182</a></td><td class="code mono">&quot;181&quot;,&quot;Prof&quot;,&quot;B&quot;,11,11,&quot;Male&quot;,142467<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L183"><a href="#L183">183</a></td><td class="code mono">&quot;182&quot;,&quot;Prof&quot;,&quot;B&quot;,18,5,&quot;Male&quot;,141136<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L184"><a href="#L184">184</a></td><td class="code mono">&quot;183&quot;,&quot;AssocProf&quot;,&quot;B&quot;,8,8,&quot;Male&quot;,100000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L185"><a href="#L185">185</a></td><td class="code mono">&quot;184&quot;,&quot;Prof&quot;,&quot;B&quot;,26,22,&quot;Male&quot;,150000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L186"><a href="#L186">186</a></td><td class="code mono">&quot;185&quot;,&quot;Prof&quot;,&quot;B&quot;,23,23,&quot;Male&quot;,101000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L187"><a href="#L187">187</a></td><td class="code mono">&quot;186&quot;,&quot;Prof&quot;,&quot;B&quot;,33,30,&quot;Male&quot;,134000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L188"><a href="#L188">188</a></td><td class="code mono">&quot;187&quot;,&quot;AssocProf&quot;,&quot;B&quot;,13,10,&quot;Female&quot;,103750<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L189"><a href="#L189">189</a></td><td class="code mono">&quot;188&quot;,&quot;Prof&quot;,&quot;B&quot;,18,10,&quot;Male&quot;,107500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L190"><a href="#L190">190</a></td><td class="code mono">&quot;189&quot;,&quot;AssocProf&quot;,&quot;B&quot;,28,28,&quot;Male&quot;,106300<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L191"><a href="#L191">191</a></td><td class="code mono">&quot;190&quot;,&quot;Prof&quot;,&quot;B&quot;,25,19,&quot;Male&quot;,153750<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L192"><a href="#L192">192</a></td><td class="code mono">&quot;191&quot;,&quot;Prof&quot;,&quot;B&quot;,22,9,&quot;Male&quot;,180000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L193"><a href="#L193">193</a></td><td class="code mono">&quot;192&quot;,&quot;Prof&quot;,&quot;B&quot;,43,22,&quot;Male&quot;,133700<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L194"><a href="#L194">194</a></td><td class="code mono">&quot;193&quot;,&quot;Prof&quot;,&quot;B&quot;,19,18,&quot;Male&quot;,122100<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L195"><a href="#L195">195</a></td><td class="code mono">&quot;194&quot;,&quot;AssocProf&quot;,&quot;B&quot;,19,19,&quot;Male&quot;,86250<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L196"><a href="#L196">196</a></td><td class="code mono">&quot;195&quot;,&quot;AssocProf&quot;,&quot;B&quot;,48,53,&quot;Male&quot;,90000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L197"><a href="#L197">197</a></td><td class="code mono">&quot;196&quot;,&quot;AssocProf&quot;,&quot;B&quot;,9,7,&quot;Male&quot;,113600<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L198"><a href="#L198">198</a></td><td class="code mono">&quot;197&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,4,&quot;Male&quot;,92700<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L199"><a href="#L199">199</a></td><td class="code mono">&quot;198&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,4,&quot;Male&quot;,92000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L200"><a href="#L200">200</a></td><td class="code mono">&quot;199&quot;,&quot;Prof&quot;,&quot;B&quot;,34,33,&quot;Male&quot;,189409<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L201"><a href="#L201">201</a></td><td class="code mono">&quot;200&quot;,&quot;Prof&quot;,&quot;B&quot;,38,22,&quot;Male&quot;,114500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L202"><a href="#L202">202</a></td><td class="code mono">&quot;201&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,4,&quot;Male&quot;,92700<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L203"><a href="#L203">203</a></td><td class="code mono">&quot;202&quot;,&quot;Prof&quot;,&quot;B&quot;,40,40,&quot;Male&quot;,119700<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L204"><a href="#L204">204</a></td><td class="code mono">&quot;203&quot;,&quot;Prof&quot;,&quot;B&quot;,28,17,&quot;Male&quot;,160400<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L205"><a href="#L205">205</a></td><td class="code mono">&quot;204&quot;,&quot;Prof&quot;,&quot;B&quot;,17,17,&quot;Male&quot;,152500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L206"><a href="#L206">206</a></td><td class="code mono">&quot;205&quot;,&quot;Prof&quot;,&quot;B&quot;,19,5,&quot;Male&quot;,165000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L207"><a href="#L207">207</a></td><td class="code mono">&quot;206&quot;,&quot;Prof&quot;,&quot;B&quot;,21,2,&quot;Male&quot;,96545<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L208"><a href="#L208">208</a></td><td class="code mono">&quot;207&quot;,&quot;Prof&quot;,&quot;B&quot;,35,33,&quot;Male&quot;,162200<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L209"><a href="#L209">209</a></td><td class="code mono">&quot;208&quot;,&quot;Prof&quot;,&quot;B&quot;,18,18,&quot;Male&quot;,120000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L210"><a href="#L210">210</a></td><td class="code mono">&quot;209&quot;,&quot;AsstProf&quot;,&quot;B&quot;,7,2,&quot;Male&quot;,91300<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L211"><a href="#L211">211</a></td><td class="code mono">&quot;210&quot;,&quot;Prof&quot;,&quot;B&quot;,20,20,&quot;Male&quot;,163200<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L212"><a href="#L212">212</a></td><td class="code mono">&quot;211&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,3,&quot;Male&quot;,91000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L213"><a href="#L213">213</a></td><td class="code mono">&quot;212&quot;,&quot;Prof&quot;,&quot;B&quot;,39,39,&quot;Male&quot;,111350<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L214"><a href="#L214">214</a></td><td class="code mono">&quot;213&quot;,&quot;Prof&quot;,&quot;B&quot;,15,7,&quot;Male&quot;,128400<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L215"><a href="#L215">215</a></td><td class="code mono">&quot;214&quot;,&quot;Prof&quot;,&quot;B&quot;,26,19,&quot;Male&quot;,126200<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L216"><a href="#L216">216</a></td><td class="code mono">&quot;215&quot;,&quot;AssocProf&quot;,&quot;B&quot;,11,1,&quot;Male&quot;,118700<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L217"><a href="#L217">217</a></td><td class="code mono">&quot;216&quot;,&quot;Prof&quot;,&quot;B&quot;,16,11,&quot;Male&quot;,145350<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L218"><a href="#L218">218</a></td><td class="code mono">&quot;217&quot;,&quot;Prof&quot;,&quot;B&quot;,15,11,&quot;Male&quot;,146000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L219"><a href="#L219">219</a></td><td class="code mono">&quot;218&quot;,&quot;AssocProf&quot;,&quot;B&quot;,29,22,&quot;Male&quot;,105350<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L220"><a href="#L220">220</a></td><td class="code mono">&quot;219&quot;,&quot;AssocProf&quot;,&quot;B&quot;,14,7,&quot;Female&quot;,109650<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L221"><a href="#L221">221</a></td><td class="code mono">&quot;220&quot;,&quot;Prof&quot;,&quot;B&quot;,13,11,&quot;Male&quot;,119500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L222"><a href="#L222">222</a></td><td class="code mono">&quot;221&quot;,&quot;Prof&quot;,&quot;B&quot;,21,21,&quot;Male&quot;,170000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L223"><a href="#L223">223</a></td><td class="code mono">&quot;222&quot;,&quot;Prof&quot;,&quot;B&quot;,23,10,&quot;Male&quot;,145200<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L224"><a href="#L224">224</a></td><td class="code mono">&quot;223&quot;,&quot;AssocProf&quot;,&quot;B&quot;,13,6,&quot;Male&quot;,107150<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L225"><a href="#L225">225</a></td><td class="code mono">&quot;224&quot;,&quot;Prof&quot;,&quot;B&quot;,34,20,&quot;Male&quot;,129600<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L226"><a href="#L226">226</a></td><td class="code mono">&quot;225&quot;,&quot;Prof&quot;,&quot;A&quot;,38,35,&quot;Male&quot;,87800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L227"><a href="#L227">227</a></td><td class="code mono">&quot;226&quot;,&quot;Prof&quot;,&quot;A&quot;,20,20,&quot;Male&quot;,122400<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L228"><a href="#L228">228</a></td><td class="code mono">&quot;227&quot;,&quot;AsstProf&quot;,&quot;A&quot;,3,1,&quot;Male&quot;,63900<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L229"><a href="#L229">229</a></td><td class="code mono">&quot;228&quot;,&quot;AssocProf&quot;,&quot;A&quot;,9,7,&quot;Male&quot;,70000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L230"><a href="#L230">230</a></td><td class="code mono">&quot;229&quot;,&quot;Prof&quot;,&quot;A&quot;,16,11,&quot;Male&quot;,88175<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L231"><a href="#L231">231</a></td><td class="code mono">&quot;230&quot;,&quot;Prof&quot;,&quot;A&quot;,39,38,&quot;Male&quot;,133900<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L232"><a href="#L232">232</a></td><td class="code mono">&quot;231&quot;,&quot;Prof&quot;,&quot;A&quot;,29,27,&quot;Female&quot;,91000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L233"><a href="#L233">233</a></td><td class="code mono">&quot;232&quot;,&quot;AssocProf&quot;,&quot;A&quot;,26,24,&quot;Female&quot;,73300<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L234"><a href="#L234">234</a></td><td class="code mono">&quot;233&quot;,&quot;Prof&quot;,&quot;A&quot;,38,19,&quot;Male&quot;,148750<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L235"><a href="#L235">235</a></td><td class="code mono">&quot;234&quot;,&quot;Prof&quot;,&quot;A&quot;,36,19,&quot;Female&quot;,117555<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L236"><a href="#L236">236</a></td><td class="code mono">&quot;235&quot;,&quot;AsstProf&quot;,&quot;A&quot;,8,3,&quot;Male&quot;,69700<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L237"><a href="#L237">237</a></td><td class="code mono">&quot;236&quot;,&quot;Prof&quot;,&quot;A&quot;,28,17,&quot;Male&quot;,81700<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L238"><a href="#L238">238</a></td><td class="code mono">&quot;237&quot;,&quot;Prof&quot;,&quot;A&quot;,25,25,&quot;Male&quot;,114000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L239"><a href="#L239">239</a></td><td class="code mono">&quot;238&quot;,&quot;AsstProf&quot;,&quot;A&quot;,7,6,&quot;Female&quot;,63100<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L240"><a href="#L240">240</a></td><td class="code mono">&quot;239&quot;,&quot;Prof&quot;,&quot;A&quot;,46,40,&quot;Male&quot;,77202<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L241"><a href="#L241">241</a></td><td class="code mono">&quot;240&quot;,&quot;Prof&quot;,&quot;A&quot;,19,6,&quot;Male&quot;,96200<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L242"><a href="#L242">242</a></td><td class="code mono">&quot;241&quot;,&quot;AsstProf&quot;,&quot;A&quot;,5,3,&quot;Male&quot;,69200<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L243"><a href="#L243">243</a></td><td class="code mono">&quot;242&quot;,&quot;Prof&quot;,&quot;A&quot;,31,30,&quot;Male&quot;,122875<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L244"><a href="#L244">244</a></td><td class="code mono">&quot;243&quot;,&quot;Prof&quot;,&quot;A&quot;,38,37,&quot;Male&quot;,102600<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L245"><a href="#L245">245</a></td><td class="code mono">&quot;244&quot;,&quot;Prof&quot;,&quot;A&quot;,23,23,&quot;Male&quot;,108200<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L246"><a href="#L246">246</a></td><td class="code mono">&quot;245&quot;,&quot;Prof&quot;,&quot;A&quot;,19,23,&quot;Male&quot;,84273<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L247"><a href="#L247">247</a></td><td class="code mono">&quot;246&quot;,&quot;Prof&quot;,&quot;A&quot;,17,11,&quot;Female&quot;,90450<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L248"><a href="#L248">248</a></td><td class="code mono">&quot;247&quot;,&quot;Prof&quot;,&quot;A&quot;,30,23,&quot;Male&quot;,91100<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L249"><a href="#L249">249</a></td><td class="code mono">&quot;248&quot;,&quot;Prof&quot;,&quot;A&quot;,21,18,&quot;Male&quot;,101100<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L250"><a href="#L250">250</a></td><td class="code mono">&quot;249&quot;,&quot;Prof&quot;,&quot;A&quot;,28,23,&quot;Male&quot;,128800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L251"><a href="#L251">251</a></td><td class="code mono">&quot;250&quot;,&quot;Prof&quot;,&quot;A&quot;,29,7,&quot;Male&quot;,204000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L252"><a href="#L252">252</a></td><td class="code mono">&quot;251&quot;,&quot;Prof&quot;,&quot;A&quot;,39,39,&quot;Male&quot;,109000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L253"><a href="#L253">253</a></td><td class="code mono">&quot;252&quot;,&quot;Prof&quot;,&quot;A&quot;,20,8,&quot;Male&quot;,102000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L254"><a href="#L254">254</a></td><td class="code mono">&quot;253&quot;,&quot;Prof&quot;,&quot;A&quot;,31,12,&quot;Male&quot;,132000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L255"><a href="#L255">255</a></td><td class="code mono">&quot;254&quot;,&quot;AsstProf&quot;,&quot;A&quot;,4,2,&quot;Female&quot;,77500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L256"><a href="#L256">256</a></td><td class="code mono">&quot;255&quot;,&quot;Prof&quot;,&quot;A&quot;,28,7,&quot;Female&quot;,116450<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L257"><a href="#L257">257</a></td><td class="code mono">&quot;256&quot;,&quot;AssocProf&quot;,&quot;A&quot;,12,8,&quot;Male&quot;,83000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L258"><a href="#L258">258</a></td><td class="code mono">&quot;257&quot;,&quot;Prof&quot;,&quot;A&quot;,22,22,&quot;Male&quot;,140300<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L259"><a href="#L259">259</a></td><td class="code mono">&quot;258&quot;,&quot;AssocProf&quot;,&quot;A&quot;,30,23,&quot;Male&quot;,74000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L260"><a href="#L260">260</a></td><td class="code mono">&quot;259&quot;,&quot;AsstProf&quot;,&quot;A&quot;,9,3,&quot;Male&quot;,73800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L261"><a href="#L261">261</a></td><td class="code mono">&quot;260&quot;,&quot;Prof&quot;,&quot;A&quot;,32,30,&quot;Male&quot;,92550<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L262"><a href="#L262">262</a></td><td class="code mono">&quot;261&quot;,&quot;AssocProf&quot;,&quot;A&quot;,41,33,&quot;Male&quot;,88600<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L263"><a href="#L263">263</a></td><td class="code mono">&quot;262&quot;,&quot;Prof&quot;,&quot;A&quot;,45,45,&quot;Male&quot;,107550<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L264"><a href="#L264">264</a></td><td class="code mono">&quot;263&quot;,&quot;Prof&quot;,&quot;A&quot;,31,26,&quot;Male&quot;,121200<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L265"><a href="#L265">265</a></td><td class="code mono">&quot;264&quot;,&quot;Prof&quot;,&quot;A&quot;,31,31,&quot;Male&quot;,126000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L266"><a href="#L266">266</a></td><td class="code mono">&quot;265&quot;,&quot;Prof&quot;,&quot;A&quot;,37,35,&quot;Male&quot;,99000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L267"><a href="#L267">267</a></td><td class="code mono">&quot;266&quot;,&quot;Prof&quot;,&quot;A&quot;,36,30,&quot;Male&quot;,134800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L268"><a href="#L268">268</a></td><td class="code mono">&quot;267&quot;,&quot;Prof&quot;,&quot;A&quot;,43,43,&quot;Male&quot;,143940<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L269"><a href="#L269">269</a></td><td class="code mono">&quot;268&quot;,&quot;Prof&quot;,&quot;A&quot;,14,10,&quot;Male&quot;,104350<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L270"><a href="#L270">270</a></td><td class="code mono">&quot;269&quot;,&quot;Prof&quot;,&quot;A&quot;,47,44,&quot;Male&quot;,89650<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L271"><a href="#L271">271</a></td><td class="code mono">&quot;270&quot;,&quot;Prof&quot;,&quot;A&quot;,13,7,&quot;Male&quot;,103700<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L272"><a href="#L272">272</a></td><td class="code mono">&quot;271&quot;,&quot;Prof&quot;,&quot;A&quot;,42,40,&quot;Male&quot;,143250<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L273"><a href="#L273">273</a></td><td class="code mono">&quot;272&quot;,&quot;Prof&quot;,&quot;A&quot;,42,18,&quot;Male&quot;,194800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L274"><a href="#L274">274</a></td><td class="code mono">&quot;273&quot;,&quot;AsstProf&quot;,&quot;A&quot;,4,1,&quot;Male&quot;,73000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L275"><a href="#L275">275</a></td><td class="code mono">&quot;274&quot;,&quot;AsstProf&quot;,&quot;A&quot;,8,4,&quot;Male&quot;,74000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L276"><a href="#L276">276</a></td><td class="code mono">&quot;275&quot;,&quot;AsstProf&quot;,&quot;A&quot;,8,3,&quot;Female&quot;,78500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L277"><a href="#L277">277</a></td><td class="code mono">&quot;276&quot;,&quot;Prof&quot;,&quot;A&quot;,12,6,&quot;Male&quot;,93000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L278"><a href="#L278">278</a></td><td class="code mono">&quot;277&quot;,&quot;Prof&quot;,&quot;A&quot;,52,48,&quot;Male&quot;,107200<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L279"><a href="#L279">279</a></td><td class="code mono">&quot;278&quot;,&quot;Prof&quot;,&quot;A&quot;,31,27,&quot;Male&quot;,163200<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L280"><a href="#L280">280</a></td><td class="code mono">&quot;279&quot;,&quot;Prof&quot;,&quot;A&quot;,24,18,&quot;Male&quot;,107100<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L281"><a href="#L281">281</a></td><td class="code mono">&quot;280&quot;,&quot;Prof&quot;,&quot;A&quot;,46,46,&quot;Male&quot;,100600<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L282"><a href="#L282">282</a></td><td class="code mono">&quot;281&quot;,&quot;Prof&quot;,&quot;A&quot;,39,38,&quot;Male&quot;,136500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L283"><a href="#L283">283</a></td><td class="code mono">&quot;282&quot;,&quot;Prof&quot;,&quot;A&quot;,37,27,&quot;Male&quot;,103600<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L284"><a href="#L284">284</a></td><td class="code mono">&quot;283&quot;,&quot;Prof&quot;,&quot;A&quot;,51,51,&quot;Male&quot;,57800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L285"><a href="#L285">285</a></td><td class="code mono">&quot;284&quot;,&quot;Prof&quot;,&quot;A&quot;,45,43,&quot;Male&quot;,155865<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L286"><a href="#L286">286</a></td><td class="code mono">&quot;285&quot;,&quot;AssocProf&quot;,&quot;A&quot;,8,6,&quot;Male&quot;,88650<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L287"><a href="#L287">287</a></td><td class="code mono">&quot;286&quot;,&quot;AssocProf&quot;,&quot;A&quot;,49,49,&quot;Male&quot;,81800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L288"><a href="#L288">288</a></td><td class="code mono">&quot;287&quot;,&quot;Prof&quot;,&quot;A&quot;,28,27,&quot;Male&quot;,115800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L289"><a href="#L289">289</a></td><td class="code mono">&quot;288&quot;,&quot;AsstProf&quot;,&quot;A&quot;,2,0,&quot;Male&quot;,85000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L290"><a href="#L290">290</a></td><td class="code mono">&quot;289&quot;,&quot;Prof&quot;,&quot;A&quot;,29,27,&quot;Male&quot;,150500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L291"><a href="#L291">291</a></td><td class="code mono">&quot;290&quot;,&quot;AsstProf&quot;,&quot;A&quot;,8,5,&quot;Male&quot;,74000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L292"><a href="#L292">292</a></td><td class="code mono">&quot;291&quot;,&quot;Prof&quot;,&quot;A&quot;,33,7,&quot;Male&quot;,174500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L293"><a href="#L293">293</a></td><td class="code mono">&quot;292&quot;,&quot;Prof&quot;,&quot;A&quot;,32,28,&quot;Male&quot;,168500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L294"><a href="#L294">294</a></td><td class="code mono">&quot;293&quot;,&quot;Prof&quot;,&quot;A&quot;,39,9,&quot;Male&quot;,183800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L295"><a href="#L295">295</a></td><td class="code mono">&quot;294&quot;,&quot;AssocProf&quot;,&quot;A&quot;,11,1,&quot;Male&quot;,104800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L296"><a href="#L296">296</a></td><td class="code mono">&quot;295&quot;,&quot;Prof&quot;,&quot;A&quot;,19,7,&quot;Male&quot;,107300<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L297"><a href="#L297">297</a></td><td class="code mono">&quot;296&quot;,&quot;Prof&quot;,&quot;A&quot;,40,36,&quot;Male&quot;,97150<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L298"><a href="#L298">298</a></td><td class="code mono">&quot;297&quot;,&quot;Prof&quot;,&quot;A&quot;,18,18,&quot;Male&quot;,126300<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L299"><a href="#L299">299</a></td><td class="code mono">&quot;298&quot;,&quot;Prof&quot;,&quot;A&quot;,17,11,&quot;Male&quot;,148800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L300"><a href="#L300">300</a></td><td class="code mono">&quot;299&quot;,&quot;Prof&quot;,&quot;A&quot;,49,43,&quot;Male&quot;,72300<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L301"><a href="#L301">301</a></td><td class="code mono">&quot;300&quot;,&quot;AssocProf&quot;,&quot;A&quot;,45,39,&quot;Male&quot;,70700<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L302"><a href="#L302">302</a></td><td class="code mono">&quot;301&quot;,&quot;Prof&quot;,&quot;A&quot;,39,36,&quot;Male&quot;,88600<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L303"><a href="#L303">303</a></td><td class="code mono">&quot;302&quot;,&quot;Prof&quot;,&quot;A&quot;,27,16,&quot;Male&quot;,127100<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L304"><a href="#L304">304</a></td><td class="code mono">&quot;303&quot;,&quot;Prof&quot;,&quot;A&quot;,28,13,&quot;Male&quot;,170500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L305"><a href="#L305">305</a></td><td class="code mono">&quot;304&quot;,&quot;Prof&quot;,&quot;A&quot;,14,4,&quot;Male&quot;,105260<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L306"><a href="#L306">306</a></td><td class="code mono">&quot;305&quot;,&quot;Prof&quot;,&quot;A&quot;,46,44,&quot;Male&quot;,144050<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L307"><a href="#L307">307</a></td><td class="code mono">&quot;306&quot;,&quot;Prof&quot;,&quot;A&quot;,33,31,&quot;Male&quot;,111350<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L308"><a href="#L308">308</a></td><td class="code mono">&quot;307&quot;,&quot;AsstProf&quot;,&quot;A&quot;,7,4,&quot;Male&quot;,74500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L309"><a href="#L309">309</a></td><td class="code mono">&quot;308&quot;,&quot;Prof&quot;,&quot;A&quot;,31,28,&quot;Male&quot;,122500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L310"><a href="#L310">310</a></td><td class="code mono">&quot;309&quot;,&quot;AsstProf&quot;,&quot;A&quot;,5,0,&quot;Male&quot;,74000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L311"><a href="#L311">311</a></td><td class="code mono">&quot;310&quot;,&quot;Prof&quot;,&quot;A&quot;,22,15,&quot;Male&quot;,166800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L312"><a href="#L312">312</a></td><td class="code mono">&quot;311&quot;,&quot;Prof&quot;,&quot;A&quot;,20,7,&quot;Male&quot;,92050<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L313"><a href="#L313">313</a></td><td class="code mono">&quot;312&quot;,&quot;Prof&quot;,&quot;A&quot;,14,9,&quot;Male&quot;,108100<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L314"><a href="#L314">314</a></td><td class="code mono">&quot;313&quot;,&quot;Prof&quot;,&quot;A&quot;,29,19,&quot;Male&quot;,94350<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L315"><a href="#L315">315</a></td><td class="code mono">&quot;314&quot;,&quot;Prof&quot;,&quot;A&quot;,35,35,&quot;Male&quot;,100351<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L316"><a href="#L316">316</a></td><td class="code mono">&quot;315&quot;,&quot;Prof&quot;,&quot;A&quot;,22,6,&quot;Male&quot;,146800<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L317"><a href="#L317">317</a></td><td class="code mono">&quot;316&quot;,&quot;AsstProf&quot;,&quot;B&quot;,6,3,&quot;Male&quot;,84716<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L318"><a href="#L318">318</a></td><td class="code mono">&quot;317&quot;,&quot;AssocProf&quot;,&quot;B&quot;,12,9,&quot;Female&quot;,71065<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L319"><a href="#L319">319</a></td><td class="code mono">&quot;318&quot;,&quot;Prof&quot;,&quot;B&quot;,46,45,&quot;Male&quot;,67559<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L320"><a href="#L320">320</a></td><td class="code mono">&quot;319&quot;,&quot;Prof&quot;,&quot;B&quot;,16,16,&quot;Male&quot;,134550<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L321"><a href="#L321">321</a></td><td class="code mono">&quot;320&quot;,&quot;Prof&quot;,&quot;B&quot;,16,15,&quot;Male&quot;,135027<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L322"><a href="#L322">322</a></td><td class="code mono">&quot;321&quot;,&quot;Prof&quot;,&quot;B&quot;,24,23,&quot;Male&quot;,104428<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L323"><a href="#L323">323</a></td><td class="code mono">&quot;322&quot;,&quot;AssocProf&quot;,&quot;B&quot;,9,9,&quot;Male&quot;,95642<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L324"><a href="#L324">324</a></td><td class="code mono">&quot;323&quot;,&quot;AssocProf&quot;,&quot;B&quot;,13,11,&quot;Male&quot;,126431<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L325"><a href="#L325">325</a></td><td class="code mono">&quot;324&quot;,&quot;Prof&quot;,&quot;B&quot;,24,15,&quot;Female&quot;,161101<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L326"><a href="#L326">326</a></td><td class="code mono">&quot;325&quot;,&quot;Prof&quot;,&quot;B&quot;,30,31,&quot;Male&quot;,162221<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L327"><a href="#L327">327</a></td><td class="code mono">&quot;326&quot;,&quot;AsstProf&quot;,&quot;B&quot;,8,4,&quot;Male&quot;,84500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L328"><a href="#L328">328</a></td><td class="code mono">&quot;327&quot;,&quot;Prof&quot;,&quot;B&quot;,23,15,&quot;Male&quot;,124714<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L329"><a href="#L329">329</a></td><td class="code mono">&quot;328&quot;,&quot;Prof&quot;,&quot;B&quot;,37,37,&quot;Male&quot;,151650<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L330"><a href="#L330">330</a></td><td class="code mono">&quot;329&quot;,&quot;AssocProf&quot;,&quot;B&quot;,10,10,&quot;Male&quot;,99247<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L331"><a href="#L331">331</a></td><td class="code mono">&quot;330&quot;,&quot;Prof&quot;,&quot;B&quot;,23,23,&quot;Male&quot;,134778<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L332"><a href="#L332">332</a></td><td class="code mono">&quot;331&quot;,&quot;Prof&quot;,&quot;B&quot;,49,60,&quot;Male&quot;,192253<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L333"><a href="#L333">333</a></td><td class="code mono">&quot;332&quot;,&quot;Prof&quot;,&quot;B&quot;,20,9,&quot;Male&quot;,116518<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L334"><a href="#L334">334</a></td><td class="code mono">&quot;333&quot;,&quot;Prof&quot;,&quot;B&quot;,18,10,&quot;Female&quot;,105450<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L335"><a href="#L335">335</a></td><td class="code mono">&quot;334&quot;,&quot;Prof&quot;,&quot;B&quot;,33,19,&quot;Male&quot;,145098<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L336"><a href="#L336">336</a></td><td class="code mono">&quot;335&quot;,&quot;AssocProf&quot;,&quot;B&quot;,19,6,&quot;Female&quot;,104542<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L337"><a href="#L337">337</a></td><td class="code mono">&quot;336&quot;,&quot;Prof&quot;,&quot;B&quot;,36,38,&quot;Male&quot;,151445<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L338"><a href="#L338">338</a></td><td class="code mono">&quot;337&quot;,&quot;Prof&quot;,&quot;B&quot;,35,23,&quot;Male&quot;,98053<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L339"><a href="#L339">339</a></td><td class="code mono">&quot;338&quot;,&quot;Prof&quot;,&quot;B&quot;,13,12,&quot;Male&quot;,145000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L340"><a href="#L340">340</a></td><td class="code mono">&quot;339&quot;,&quot;Prof&quot;,&quot;B&quot;,32,25,&quot;Male&quot;,128464<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L341"><a href="#L341">341</a></td><td class="code mono">&quot;340&quot;,&quot;Prof&quot;,&quot;B&quot;,37,15,&quot;Male&quot;,137317<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L342"><a href="#L342">342</a></td><td class="code mono">&quot;341&quot;,&quot;Prof&quot;,&quot;B&quot;,13,11,&quot;Male&quot;,106231<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L343"><a href="#L343">343</a></td><td class="code mono">&quot;342&quot;,&quot;Prof&quot;,&quot;B&quot;,17,17,&quot;Female&quot;,124312<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L344"><a href="#L344">344</a></td><td class="code mono">&quot;343&quot;,&quot;Prof&quot;,&quot;B&quot;,38,38,&quot;Male&quot;,114596<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L345"><a href="#L345">345</a></td><td class="code mono">&quot;344&quot;,&quot;Prof&quot;,&quot;B&quot;,31,31,&quot;Male&quot;,162150<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L346"><a href="#L346">346</a></td><td class="code mono">&quot;345&quot;,&quot;Prof&quot;,&quot;B&quot;,32,35,&quot;Male&quot;,150376<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L347"><a href="#L347">347</a></td><td class="code mono">&quot;346&quot;,&quot;Prof&quot;,&quot;B&quot;,15,10,&quot;Male&quot;,107986<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L348"><a href="#L348">348</a></td><td class="code mono">&quot;347&quot;,&quot;Prof&quot;,&quot;B&quot;,41,27,&quot;Male&quot;,142023<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L349"><a href="#L349">349</a></td><td class="code mono">&quot;348&quot;,&quot;Prof&quot;,&quot;B&quot;,39,33,&quot;Male&quot;,128250<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L350"><a href="#L350">350</a></td><td class="code mono">&quot;349&quot;,&quot;AsstProf&quot;,&quot;B&quot;,4,3,&quot;Male&quot;,80139<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L351"><a href="#L351">351</a></td><td class="code mono">&quot;350&quot;,&quot;Prof&quot;,&quot;B&quot;,27,28,&quot;Male&quot;,144309<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L352"><a href="#L352">352</a></td><td class="code mono">&quot;351&quot;,&quot;Prof&quot;,&quot;B&quot;,56,49,&quot;Male&quot;,186960<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L353"><a href="#L353">353</a></td><td class="code mono">&quot;352&quot;,&quot;Prof&quot;,&quot;B&quot;,38,38,&quot;Male&quot;,93519<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L354"><a href="#L354">354</a></td><td class="code mono">&quot;353&quot;,&quot;Prof&quot;,&quot;B&quot;,26,27,&quot;Male&quot;,142500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L355"><a href="#L355">355</a></td><td class="code mono">&quot;354&quot;,&quot;Prof&quot;,&quot;B&quot;,22,20,&quot;Male&quot;,138000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L356"><a href="#L356">356</a></td><td class="code mono">&quot;355&quot;,&quot;AsstProf&quot;,&quot;B&quot;,8,1,&quot;Male&quot;,83600<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L357"><a href="#L357">357</a></td><td class="code mono">&quot;356&quot;,&quot;Prof&quot;,&quot;B&quot;,25,21,&quot;Male&quot;,145028<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L358"><a href="#L358">358</a></td><td class="code mono">&quot;357&quot;,&quot;Prof&quot;,&quot;A&quot;,49,40,&quot;Male&quot;,88709<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L359"><a href="#L359">359</a></td><td class="code mono">&quot;358&quot;,&quot;Prof&quot;,&quot;A&quot;,39,35,&quot;Male&quot;,107309<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L360"><a href="#L360">360</a></td><td class="code mono">&quot;359&quot;,&quot;Prof&quot;,&quot;A&quot;,28,14,&quot;Female&quot;,109954<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L361"><a href="#L361">361</a></td><td class="code mono">&quot;360&quot;,&quot;AsstProf&quot;,&quot;A&quot;,11,4,&quot;Male&quot;,78785<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L362"><a href="#L362">362</a></td><td class="code mono">&quot;361&quot;,&quot;Prof&quot;,&quot;A&quot;,14,11,&quot;Male&quot;,121946<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L363"><a href="#L363">363</a></td><td class="code mono">&quot;362&quot;,&quot;Prof&quot;,&quot;A&quot;,23,15,&quot;Female&quot;,109646<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L364"><a href="#L364">364</a></td><td class="code mono">&quot;363&quot;,&quot;Prof&quot;,&quot;A&quot;,30,30,&quot;Male&quot;,138771<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L365"><a href="#L365">365</a></td><td class="code mono">&quot;364&quot;,&quot;AssocProf&quot;,&quot;A&quot;,20,17,&quot;Male&quot;,81285<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L366"><a href="#L366">366</a></td><td class="code mono">&quot;365&quot;,&quot;Prof&quot;,&quot;A&quot;,43,43,&quot;Male&quot;,205500<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L367"><a href="#L367">367</a></td><td class="code mono">&quot;366&quot;,&quot;Prof&quot;,&quot;A&quot;,43,40,&quot;Male&quot;,101036<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L368"><a href="#L368">368</a></td><td class="code mono">&quot;367&quot;,&quot;Prof&quot;,&quot;A&quot;,15,10,&quot;Male&quot;,115435<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L369"><a href="#L369">369</a></td><td class="code mono">&quot;368&quot;,&quot;AssocProf&quot;,&quot;A&quot;,10,1,&quot;Male&quot;,108413<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L370"><a href="#L370">370</a></td><td class="code mono">&quot;369&quot;,&quot;Prof&quot;,&quot;A&quot;,35,30,&quot;Male&quot;,131950<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L371"><a href="#L371">371</a></td><td class="code mono">&quot;370&quot;,&quot;Prof&quot;,&quot;A&quot;,33,31,&quot;Male&quot;,134690<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L372"><a href="#L372">372</a></td><td class="code mono">&quot;371&quot;,&quot;AssocProf&quot;,&quot;A&quot;,13,8,&quot;Male&quot;,78182<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L373"><a href="#L373">373</a></td><td class="code mono">&quot;372&quot;,&quot;Prof&quot;,&quot;A&quot;,23,20,&quot;Male&quot;,110515<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L374"><a href="#L374">374</a></td><td class="code mono">&quot;373&quot;,&quot;Prof&quot;,&quot;A&quot;,12,7,&quot;Male&quot;,109707<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L375"><a href="#L375">375</a></td><td class="code mono">&quot;374&quot;,&quot;Prof&quot;,&quot;A&quot;,30,26,&quot;Male&quot;,136660<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L376"><a href="#L376">376</a></td><td class="code mono">&quot;375&quot;,&quot;Prof&quot;,&quot;A&quot;,27,19,&quot;Male&quot;,103275<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L377"><a href="#L377">377</a></td><td class="code mono">&quot;376&quot;,&quot;Prof&quot;,&quot;A&quot;,28,26,&quot;Male&quot;,103649<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L378"><a href="#L378">378</a></td><td class="code mono">&quot;377&quot;,&quot;AsstProf&quot;,&quot;A&quot;,4,1,&quot;Male&quot;,74856<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L379"><a href="#L379">379</a></td><td class="code mono">&quot;378&quot;,&quot;AsstProf&quot;,&quot;A&quot;,6,3,&quot;Male&quot;,77081<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L380"><a href="#L380">380</a></td><td class="code mono">&quot;379&quot;,&quot;Prof&quot;,&quot;A&quot;,38,38,&quot;Male&quot;,150680<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L381"><a href="#L381">381</a></td><td class="code mono">&quot;380&quot;,&quot;AssocProf&quot;,&quot;A&quot;,11,8,&quot;Male&quot;,104121<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L382"><a href="#L382">382</a></td><td class="code mono">&quot;381&quot;,&quot;AsstProf&quot;,&quot;A&quot;,8,3,&quot;Male&quot;,75996<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L383"><a href="#L383">383</a></td><td class="code mono">&quot;382&quot;,&quot;Prof&quot;,&quot;A&quot;,27,23,&quot;Male&quot;,172505<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L384"><a href="#L384">384</a></td><td class="code mono">&quot;383&quot;,&quot;AssocProf&quot;,&quot;A&quot;,8,5,&quot;Male&quot;,86895<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L385"><a href="#L385">385</a></td><td class="code mono">&quot;384&quot;,&quot;Prof&quot;,&quot;A&quot;,44,44,&quot;Male&quot;,105000<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L386"><a href="#L386">386</a></td><td class="code mono">&quot;385&quot;,&quot;Prof&quot;,&quot;A&quot;,27,21,&quot;Male&quot;,125192<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L387"><a href="#L387">387</a></td><td class="code mono">&quot;386&quot;,&quot;Prof&quot;,&quot;A&quot;,15,9,&quot;Male&quot;,114330<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L388"><a href="#L388">388</a></td><td class="code mono">&quot;387&quot;,&quot;Prof&quot;,&quot;A&quot;,29,27,&quot;Male&quot;,139219<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L389"><a href="#L389">389</a></td><td class="code mono">&quot;388&quot;,&quot;Prof&quot;,&quot;A&quot;,29,15,&quot;Male&quot;,109305<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L390"><a href="#L390">390</a></td><td class="code mono">&quot;389&quot;,&quot;Prof&quot;,&quot;A&quot;,38,36,&quot;Male&quot;,119450<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L391"><a href="#L391">391</a></td><td class="code mono">&quot;390&quot;,&quot;Prof&quot;,&quot;A&quot;,33,18,&quot;Male&quot;,186023<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L392"><a href="#L392">392</a></td><td class="code mono">&quot;391&quot;,&quot;Prof&quot;,&quot;A&quot;,40,19,&quot;Male&quot;,166605<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L393"><a href="#L393">393</a></td><td class="code mono">&quot;392&quot;,&quot;Prof&quot;,&quot;A&quot;,30,19,&quot;Male&quot;,151292<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L394"><a href="#L394">394</a></td><td class="code mono">&quot;393&quot;,&quot;Prof&quot;,&quot;A&quot;,33,30,&quot;Male&quot;,103106<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L395"><a href="#L395">395</a></td><td class="code mono">&quot;394&quot;,&quot;Prof&quot;,&quot;A&quot;,31,19,&quot;Male&quot;,150564<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L396"><a href="#L396">396</a></td><td class="code mono">&quot;395&quot;,&quot;Prof&quot;,&quot;A&quot;,42,25,&quot;Male&quot;,101738<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L397"><a href="#L397">397</a></td><td class="code mono">&quot;396&quot;,&quot;Prof&quot;,&quot;A&quot;,25,15,&quot;Male&quot;,95329<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+<tr class="c-line"><td class="code-lc" id="L398"><a href="#L398">398</a></td><td class="code mono">&quot;397&quot;,&quot;AsstProf&quot;,&quot;A&quot;,8,4,&quot;Male&quot;,81035<span class="ctrl-char" title="0x0a">&#x240a</span></td></tr>
+</tbody>
+</table>
+
+<p class="right soft"><a href="/index.php/p/rdataset/source/file/master/csv/car/Salaries.csv"><img style="vertical-align: text-bottom;" src="/media/idf/img/package-grey.png" alt="Archive" align="bottom" /></a> <a href="/index.php/p/rdataset/source/file/master/csv/car/Salaries.csv">Download this file</a></p>
+
+</div>
+    </div>
+      </div>
+    </div>
+    <div class="yui-b context" id="context">
+
+
+
+<div class="expander">
+<div class="gradient"></div>
+<h3>
+  Branches
+  <span class="input-with-delete">
+    <input type="text" rel="branch-list" class="filter-list"  title="filter branches" />
+    <span></span>
+  </span>
+</h3>
+<ul id="branch-list">
+
+
+<li class="label active">
+  <a href="/index.php/p/rdataset/source/tree/master/" class="label">master</a>
+</li>
+
+</ul>
+
+</div>
+
+
+</div>
+  </div>
+  <div id="ft"></div>
+</div>
+<script type="text/javascript" src="/media/idf/js/jquery.hotkeys.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <!--
+$(document).bind('keydown','Shift+h',function (){window.location.href='/index.php/help/';});
+
+$(document).bind('keydown','Shift+u',function (){window.location.href='/index.php/p/rdataset/timeline/all/';});
+$(document).bind('keydown','Shift+a',function (){window.location.href='/index.php/p/rdataset/issues/create/';});
+$(document).bind('keydown','Shift+i',function (){window.location.href='/index.php/p/rdataset/issues/';});
+$(document).bind('keydown','Shift+d',function (){window.location.href='/index.php/p/rdataset/downloads/';});
+$(document).bind('keydown','Shift+o',function (){window.location.href='/index.php/p/rdataset/doc/';});
+$(document).bind('keydown','Shift+s',function (){window.location.href='/index.php/p/rdataset/source/tree/master/';});
+ //-->
+</script>
+
+
+
+<script type="text/javascript" charset="utf-8">
+
+$(document).ready(function() {
+  $("input.filter-list").each(function() {
+    var input = $(this);
+    var lists = $("ul#" + input.attr("rel"));
+    if (lists.length == 0)
+      return;
+    var list = $(lists[0]);
+    var wrapper = input.parent();
+
+    // a list should contain a reasonable amount of items
+    // to be filterable - we also give the filter input a
+    // special class here so we recognize it later in case
+    // we have to hide it when the list view is collapsed
+    if (list.children("li").length > 10) {
+      wrapper.addClass("activated");
+      input.focus(function() {
+        // ensure that the parent of the list keeps activated / opened
+        list.parent().addClass("activated");
+        if (input.attr("value") == input.attr("title")) {
+          input.attr("value", "");
+          wrapper.removeClass("default");
+        }
+      });
+      input.blur(function() {
+        list.parent().removeClass("activated");
+        if (input.attr("value").length == 0) {
+          input.attr("value", input.attr("title"));
+          wrapper.addClass("default");
+        }
+      });
+      input.keyup(function(ev) {
+        var filter = $(this)[0];
+        list.children("li").css('display', 'block');
+        list.children("li").filter(function(index) {
+          if (filter.value == "")
+            return false;
+          if ($(this).text().indexOf(filter.value) > -1)
+            return false;
+          return true;
+        }).css('display', 'none');
+      });
+      wrapper.children('span').click(function() {
+        input.val('').keyup().blur();
+      });
+      // initialize it with the default
+      input.val('').blur();
+    }
+  });
+});
+
+</script>
+
+
+<script type="text/javascript" src="/media/idf/js/prettify.js"></script>
+<script type="text/javascript">prettyPrint();</script>
+
+
+<script type="text/javascript" charset="utf-8">
+//<![CDATA[
+$(document).ready(function(){
+    var frag = location.hash;
+    if ($('#preview').length) {
+        location.hash = '#preview';
+    }
+    else if (frag.length > 3 && frag.substring(0, 3) == '#ic') {
+        $(frag).addClass("issue-comment-focus");
+    }
+
+    var contextTop = $('div#context').position().top;
+    var contextFixEnabled = true;
+    $(window).scroll(function() {
+         if (!contextFixEnabled || $(window).scrollTop() < contextTop)
+             $('div#context').css('position', 'relative');
+         else
+             $('div#context').css('position', 'fixed');
+    });
+    $(window).resize(function() {
+         contextFixEnabled =
+             $('div#context').offset().top + $('div#context').height() <
+             $(window).height();
+    });
+    $(window).resize();
+});
+//]]>
+</script>
+</body>
+</html>

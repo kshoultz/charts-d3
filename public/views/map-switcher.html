@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Library Test Harness</title>
+        <script src="../javascript/d3.js"></script>
+        <script src="../javascript/d3.geo.js"></script>
+        <script src="../javascript/d3-geo-projection.v1.min.js"></script>
+        <script src="../javascript/d3charts/d3-charts.js"></script>
+        <script src="../javascript/d3charts/d3-charts-map-azimuth.js"></script>
+        <link rel="stylesheet" href="../css/d3-charts-styles.css" />
+        <link rel="stylesheet" href="../css/azimuth.css" />
+    </head>
+
+<select id="projection-menu"></select>
+<div id="targetChart" width="800px" height="600px"></div>
+
+
+<script>
+    var locationData = undefined,
+        landData = undefined;
+    // Add Location data points:
+    d3.json("../data/locations.json", function (locations) {
+        locationData = locations.locations;
+        locationData.forEach(function (location, i) {
+            location.label = location.code;// + ": " + location.name;
+        });
+        // Add the countries to the countries layer:
+        d3.json("../data/world-countries.json", function (collection) {
+            landData = collection.features;
+            d3.charts.MapAzimuth({
+                target: "targetChart",
+                locationData: plotPoints(locationData),
+                landData: landData,
+                width: 1000,
+                height: 600,
+                //theme: "Night",
+                projectionIndex:17,
+                //showLabels: true,
+                showStars: false
+            });
+        });
+    });
+
+    function plotPoints(rows) {
+        points = [];
+        rows.forEach(function (loc) {
+            var pt = [];
+            pt[0] = +loc.long;
+            pt[1] = +loc.lat;
+
+            points.push({
+                type: 'Feature',
+                geometry: {
+                    type: 'Point',
+                    coordinates: pt,
+                    source: loc
+                }
+                // ,properties: { }
+            });
+        });
+        //refresh();
+        return points;
+    }
+</script>
+</html>

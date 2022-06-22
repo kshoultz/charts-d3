@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Library Test Harness</title>
+        <script src="../javascript/d3.js"></script>
+        <script src="../javascript/d3charts/d3-charts.js"></script>
+        <script src="../javascript/d3charts/d3-charts-heatmap.js"></script>
+        <link rel="stylesheet" href="../css/d3-charts-styles.css" />
+    </head>
+    <body>
+        <div id="targetChart" width="800px" height="600px"></div>
+        <script>
+
+var colors = ["#fff5eb", "#fee6ce", "#fdd0a2", "#fdae6b", "#fd8d3c", "#f16913", "#d94801", "#a63603", "#7f2704"];
+// colors = ["#FF0000","#000000"]
+// ["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]
+var colorScale = d3.scaleLinear().domain([0, 20]).range(['#FFFFFF', '#6666FF']);
+//var colorScale = d3.scaleQuantile().domain([0, 20]).range(colors);
+//var colorScale = d3.scaleOrdinal().range(colors);
+ // Custom Color Scale:
+d3.csv("../data/heat-data.csv", function (d) {
+    // Convert strings to numbers:
+    d.col1 = +d.col1;
+    d.col2 = +d.col2;
+    d.col3 = +d.col3;
+    d.col4 = +d.col4;
+    d.col5 = +d.col5;
+    d.col6 = +d.col6;
+    return d;
+}, function (error, data) {
+    if (error) { throw error; }
+
+    d3.charts.HeatMap({
+        target: "targetChart",
+        data: data,
+        width: 800,
+        height: 600, 
+        colorScale: colorScale
+    });
+});
+        </script>
+    </body>
+</html>

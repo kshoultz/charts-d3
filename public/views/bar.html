@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Library Test Harness</title>
+        <script src="../javascript/d3.js"></script>
+        <script src="../javascript/d3charts/d3-charts.js"></script>
+        <script src="../javascript/d3charts/d3-charts-bar.js"></script>
+        <link rel="stylesheet" href="../css/d3-charts-styles.css" />
+    </head>
+    <body>
+        <div id="targetChart" width="800px" height="600px"></div>
+        <script>
+    // Need a way to see the value for the bar. 
+    // Hover popup
+    // possible focus circle at the top. (Probably not necessary).
+    var data = [
+        { key: "Glazed", value: 132 },
+        { key: "Jelly", value: 71 },
+        { key: "Holes", value: 337 },
+        { key: "Sprinkles", value: 93 },
+        { key: "Crumb", value: 78 },
+        { key: "Chocolate", value: 43 },
+        { key: "Coconut", value: 20 },
+        { key: "Cream", value: 10 },
+        { key: "Cruller", value: 30 },
+        { key: "Eclair", value: 8 },
+        { key: "Fritter", value: 17 },
+        { key: "Bearclaw", value: 21 }
+    ];
+
+    d3.charts.BarChart({
+        target: "targetChart",
+        data: data,
+        width: 800,
+        height: 400,
+        title: "Jimmy's Donut Sales for "+ new Date(),
+        xAxisLabel: "Type of Donuts",
+        yAxisLabel: "Number of Donuts"
+    });
+        </script>
+    </body>
+</html>

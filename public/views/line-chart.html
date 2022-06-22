@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Library Test Harness</title>
+        <script src="../javascript/d3.js"></script>
+        <script src="../javascript/d3charts/d3-charts.js"></script>
+        <script src="../javascript/d3charts/d3-charts-line.js"></script>
+        <link rel="stylesheet" href="../css/d3-charts-styles.css" />
+    </head>
+    <body>
+        <div id="targetChart" width="800px" height="600px"></div>
+        <script>
+            // Custom Color Scale:
+            var colorScale = d3.scaleOrdinal().range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+        
+            d3.tsv("../data/data2.tsv", function (d) {
+                var parseTime = d3.timeParse("%d-%b-%y");
+                d.key = parseTime(d.key);
+                d.value = +d.value;
+                return d;
+            }, function (error, data) {
+                if (error) { throw error; }
+                
+                d3.charts.LineChart({
+                    target: "targetChart", 
+                    data: data, 
+                    width: 800,
+                    height: 400
+                });
+            });
+        </script>
+    </body>
+</html>

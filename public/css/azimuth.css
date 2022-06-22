@@ -1,0 +1,91 @@
+svg {
+    pointer-events: all;
+}
+
+/* Oceans */
+.gOceansDefault path { fill: #bbd4e3; stroke: #bbd4e3; }
+.gOceansNight path { fill: rgb(18,34,55);  stroke: rgb(18,34,55); }
+.gOceansExperimental path { fill: #F6F6F6; stroke: #F6F6F6; }
+
+/* Graticules */
+.gGraticulesDefault path { stroke: #96b0c0; stroke-width: 1; fill: none; }
+.gGraticulesNight path { stroke: rgb(36,65,97);  stroke-width: 1; fill: none; }
+.gGraticulesExperimental path { stroke: #DDDDDD;  stroke-width: 1; fill: none; }
+
+/* Lands */
+.gLandsDefault path { fill: #aaa; stroke: #76695b; stroke-width: 1; }
+.gLandsNight path { fill: rgb(41,64,95);  stroke: rgb(58,95,127);  stroke-width: 1; }
+.gLandsExperimental path { fill: #BBBBBB;  stroke: #CCCCCC;  stroke-width: 1; }
+
+/* Locations */
+.gLocationsDefault path, .gLocation { fill: #FF0000; stroke: #555; cursor: pointer; }
+.gLocationsNight path { fill: rgb(219,249,253); stroke: rgb(33,101,130); cursor: pointer; }
+.gLocationsExperimental path { fill: #000000; stroke: #000000; cursor: pointer; }
+
+/* Locations Active */
+.gLocationsDefault .active { fill:#FFFFFF; stroke:#DDDDFF; stroke-width:2px; stroke-opacity:1; }
+.gLocationsNight .active { fill:#FFFFFF; stroke:#DDDDFF; stroke-width:2px; stroke-opacity:1; }
+.gLocationsExperimental .active { fill:#000000; stroke:#000000; stroke-width:2px; stroke-opacity:1; }
+
+/* Routes */
+.gRoutesDefault path { stroke:#663333; stroke-width:.5px; stroke-opacity:0.2; fill:none; }
+.gRoutesNight path { stroke:#FFFFAA; stroke-width:.5px; stroke-opacity:0.2; fill:none; }
+.gRoutesExperimental path { stroke:#336633; stroke-width:.5px; stroke-opacity:0.2; fill:none; }
+
+/* Routes Active */
+.gRoutesDefault .active, .gRoutesNight .active, .gRoutesExperimental .active { stroke-width:3px; stroke-opacity:.6; }
+
+/* Labels */
+.gLocationLabels rect { fill: #FFFFFF; stroke: #CCCCCC; opacity: 0.8; }
+.gLocationLabels text { font-size:11px; }
+
+/* Space */
+.gSpaceDefault { }
+.gSpaceNight { }
+.gSpaceExperimental { }
+
+.gSpaceDefault rect { fill: #EEEEEE;}
+.gSpaceNight rect {fill: #000011;}
+.gSpaceExperimental rect {fill: #FFFFFF;}
+
+.gSpaceDefault path { fill-opacity: 0; }
+.gSpaceNight path {fill: #FFFFBB; fill-opacity: 0.8; stroke:#666633; stroke-width:2px;}
+.gSpaceExperimental path { fill-opacity: 0; }
+
+/* ---------------------------------------------------- */ 
+/* Project-specific Styles, Ultimately don't want here. */
+/* ---------------------------------------------------- */ 
+
+.matrix-header, .matrix-header-left, .matrix-total-bottom, .matrix-total-right, .matrix-header-bottom { font-weight:bold; }
+
+.matrix-header-bottom { background-color:#c3c8d8; text-align:right; border:solid 1px #000000; border-width:thin 0 0 thin !important;}
+.matrix-total-bottom,.matrix-total-right { background-color:#ffedb2; }
+.matrix-total-right {border-left:solid thin #000000 !important;}
+.matrix-total-bottom { border-left:solid thin #000000; }
+.matrix-header, .matrix-header-left { background-color:#e4eeff; }
+.matrix-header-left { border-right:solid 1px #000000 !important; } 
+.matrix-total-right, .matrix-total-right div { text-align:right !important; }
+.matrix-cells { background-color:#FFFFFF; border-left:solid 1px #000000; }
+.matrix-cells-lightgreen { background-color:#b9ff9b; }
+.matrix-cells-darkgreen { background-color:#8df361; }
+.matrix-top-label {
+    font-size:16px;
+    font-weight:bold;
+    text-align:center;
+    padding:6px 0 6px 0;
+	border:solid 1px #000000;
+	border-width:2px 0 thin 0;
+}
+.tcnfilter-detail-red .x-form-item-label-default, .tcnfilter-detail-darkgreen .x-form-item-label-default { color: black; }
+.tcnfilter-detail-red, .tcnfilter-detail-darkgreen { min-width:240px; }
+.tcnfilter-detail-red { background-color:#F08080; }
+.tcnfilter-detail-darkgreen { background-color:#AADDAA; }
+.tcnfilter-cells-red { background-color:#F08080; }
+.tcnfilter-cells-darkgreen { background-color:#AADDAA; }
+
+
+.x-grid-item, .x-grid-item-over {
+	border-color:black !important;
+	border-width:0 0 thin 0 !important;
+}
+.x-box-inner .x-grid-header-ct { background-color:#333333; }

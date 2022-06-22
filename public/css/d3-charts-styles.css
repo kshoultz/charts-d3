@@ -1,0 +1,58 @@
+﻿.chart-title { font-size:16px; }
+.chart-label-axis-x, .chart-label-axis-x { font-size:12px; }
+.bar {}
+.bar:hover { fill: brown; }
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.x.axis path { display: none; }
+.browser text { text-anchor: end; }
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 80px;
+    height: 32px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: #EEEEEE;
+    border: 1px solid #777788;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+.line-marker,
+.lineMarker {
+    stroke: #000033;
+    stroke-width: .5px;
+}
+
+.line {
+    fill: none;
+    stroke-width: 1.5px;
+}
+
+/* Focus elements */
+.focus circle {
+    fill: none;
+    stroke: #CCCCCC;
+}
+.focus-line {
+    fill: none;
+    stroke: #DDDDDD;
+    stroke-width: 0.5px;
+}
+
+.gridline path,
+.gridline line {
+    fill: none;
+    stroke: #CCCCCC;
+    shape-rendering: crispEdges;
+}

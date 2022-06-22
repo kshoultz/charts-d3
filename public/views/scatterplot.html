@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Library Test Harness</title>
+        <script src="../javascript/d3.js"></script>
+        <script src="../javascript/d3charts/d3-charts.js"></script>
+        <script src="../javascript/d3charts/d3-charts-scatterplot.js"></script>
+        <link rel="stylesheet" href="../css/d3-charts-styles.css" />
+    </head>
+    <body>
+        <div id="targetChart" width="800px" height="600px"></div>
+        <script>
+            var googleData, appleData, xData = [], yData = [], labelData = [], colorData = [], sizeData = [];
+            // load GOOG stock:
+            d3.csv("../data/stocks/GOOG.csv", function (d) {
+                xData.push(d.Close); labelData.push(d.Date);
+            }, function (error, data) {
+                if (error) { throw error; } else {
+                    googleData = data;
+                    plotGraph();
+                };
+            });
+
+            // load MSFT stock:
+            d3.csv("../data/stocks/MSFT.csv", function (d) {
+                yData.push(d.Close);
+            }, function (error, data) {
+                if (error) { throw error; } else {
+                    appleData = data;
+                    plotGraph();
+                };
+            });
+
+            function plotGraph() {
+                var scatterplot;
+                // Probably will correlate and provide configurable scatterplot points instead. 
+                if (googleData && appleData) {
+                    scatterplot = d3.charts.Scatterplot({
+                        target: "targetChart",
+                        xData: xData,
+                        yData: yData,
+                        labelData: labelData,
+                        xAxisLabel:"Google Close", // x axis label.
+                        yAxisLabel:"Microsoft Close" // y axis label.
+                    });
+                }
+                return scatterplot;
+            }
+        </script>
+    </body>
+</html>

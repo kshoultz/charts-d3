@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Library Test Harness</title>
+        <script src="../javascript/d3.js"></script>
+        <script src="../javascript/d3charts/d3-charts.js"></script>
+        <script src="../javascript/d3charts/d3-charts-sand.js"></script>
+        <link rel="stylesheet" href="../css/d3-charts-styles.css" />
+    </head>
+    <body>
+        <div id="targetChart" width="800px" height="600px"></div>
+        <script>
+            d3.csv('../data/stacked-area-data.csv', function (error, data) {
+                if (error) throw error;
+
+                var area = d3.charts.Sand({
+                    target: "targetChart",
+                    data: data,
+                    yAxisLabel: "Billions of Liters",
+                    width: 800,
+                    height: 400
+                });
+            });
+        </script>
+    </body>
+</html>

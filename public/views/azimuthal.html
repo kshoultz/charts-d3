@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>Library Test Harness</title>
+        <script src="../javascript/d3.js"></script>
+        <script src="../javascript/d3.geo.js"></script>
+        <script src="../javascript/d3-geo-projection.v1.min.js"></script>
+        <script src="../javascript/d3charts/d3-charts.js"></script>
+        <script src="../javascript/d3charts/d3-charts-map-azimuth.js"></script>
+        <link rel="stylesheet" href="../css/d3-charts-styles.css" />
+        <link href="../css/azimuth.css" rel="stylesheet" />
+    </head>
+    <body>
+            <div id="targetChart" width="800px" height="600px"></div>
+
+            <script>
+                var landData, locationData;
+            
+                function getLandData(callback) {
+                    d3.json("../data/world-countries.json", function (collection) {
+                        landData = collection.features;
+                        callback(null);
+                    });
+                }
+            
+                function getLocationData(callback) {
+                    d3.json("../data/locations.json", function (locations) {
+                        locationData = locations.locations;
+                        locationData.forEach(function (location, i) {
+                            location.label = location.code; // + ": " + location.name;
+                        });
+                        callback(null);
+                    });
+                }
+            
+                function makeMap() {
+                    d3.charts.MapAzimuth({
+                        target: "targetChart",
+                        locationData: plotPoints(locationData),
+                        landData: landData,
+                        width: 800,
+                        height: 600,
+                        theme: "Night",
+                        showLabels: true,
+                        showStars: true
+                    });
+                }
+            
+                function plotPoints(rows) {
+                    points = [];
+                    rows.forEach(function (loc) {
+                        var pt = [];
+                        pt[0] = +loc.long;
+                        pt[1] = +loc.lat;
+            
+                        points.push({
+                            type: 'Feature',
+                            geometry: {
+                                type: 'Point',
+                                coordinates: pt,
+                                source: loc
+                            }
+                            // ,properties: { }
+                        });
+                    });
+                    //refresh();
+                    return points;
+                }
+            
+                var q = d3.queue();
+                q.defer(getLandData);
+                q.defer(getLocationData);
+                q.await(function (error) {
+                    if (error) throw error;
+                    makeMap();
+                });
+            </script>
+    </body>
+</html>
